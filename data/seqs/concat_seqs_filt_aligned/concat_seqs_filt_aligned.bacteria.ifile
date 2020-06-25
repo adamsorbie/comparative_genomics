@@ -1,0 +1,85 @@
+# Insert information file created by cmalign.
+# This file includes 2+<nseq> non-'#' pre-fixed lines per model used for alignment,
+# where <nseq> is the number of sequences in the target file.
+# The first non-'#' prefixed line per model includes 2 tokens, separated by a single space (' '):
+# The first token is the model name and the second is the consensus length of the model (<clen>).
+# The following <nseq> lines include (4+3*<n>) whitespace delimited tokens per line.
+# The format for these <nseq> lines is:
+#   <seqname> <seqlen> <spos> <epos> <c_1> <u_1> <i_1> <c_2> <u_2> <i_2> .... <c_x> <u_x> <i_x> .... <c_n> <u_n> <i_n>
+#   indicating <seqname> has >= 1 inserted residues after <n> different consensus positions,
+#   <seqname> is the name of the sequence
+#   <seqlen>  is the unaligned length of the sequence
+#   <spos>    is the first (5'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <epos>    is the final (3'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <seqlen>  is the unaligned length of the sequence
+#   <c_x> is a consensus position (between 0 and <clen>; if 0: inserts before 1st consensus posn)
+#   <u_x> is the *unaligned* position (b/t 1 and <seqlen>) in <seqname> of the first inserted residue after <c_x>.
+#   <i_x> is the number of inserted residues after position <c_x> for <seqname>.
+# Lines for sequences with 0 inserted residues will include only <seqname> <seqlen> <spos> <epos>.
+# The final non-'#' prefixed line per model includes only '//', indicating the end of info for a model.
+#
+bacteria 1582
+Parabacteroides_timonensis 1523 5 1578  73 70 1  75 73 1  97 90 1  98 92 1  207 202 1  439 420 1  1023 991 1  1208 1166 1
+Parabacteroides_johnsonii 1526 8 1580  73 67 1  98 93 1  207 203 1  439 421 1  1023 992 1  1208 1167 1
+Parabacteroides_sp900155425 1526 8 1580  73 67 1  98 93 1  207 203 1  439 421 1  1023 992 1  1208 1167 1
+Parabacteroides_goldsteinii 1523 5 1578  73 70 1  98 92 1  207 202 1  439 420 1  1023 991 1  1208 1166 1
+Parabacteroides_merdae 1527 5 1578  73 70 1  98 96 1  207 206 1  439 424 1  1023 995 1  1208 1170 1
+Parabacteroides_bouchesdurhonensis 1523 8 1580  73 67 1  98 89 1  207 199 1  439 417 1  1023 988 1  1208 1163 1
+Parabacteroides_gordonii 1527 5 1582  73 70 1  98 92 1  207 202 1  439 420 1  1023 991 1  1208 1166 1
+Parabacteroides_distasonis 1523 5 1578  73 70 1  98 92 1  207 202 1  439 420 1  1023 991 1  1208 1166 1
+Parabacteroides_chinchillae 1524 5 1578  73 70 1  98 92 1  207 202 1  439 420 1  1023 991 1  1208 1166 1
+Odoribacter_laneus 1522 5 1578  73 70 1  98 92 1  439 419 1  1023 990 1  1208 1165 1
+Odoribacter_massiliensis 1524 8 1580  73 67 1  98 93 1  439 420 1  1023 990 1  1208 1165 1
+Odoribacter_splanchnicus 1520 5 1578  73 70 1  98 92 1  217 211 1  227 212 1  231 217 1  439 418 1  1023 988 1  1208 1163 1
+Bacteroides_fragilis_A 1525 5 1578  73 70 1  98 96 1  439 422 1  1208 1168 1
+Bacteroides_caecimuris 1524 8 1580  73 67 1  75 70 1  97 93 1  98 95 1  439 421 1  863 834 1  869 841 1  1208 1165 1
+Bacteroides_togonis 1524 5 1578  73 70 1  98 94 1  439 421 1  1208 1167 1
+Bacteroides_B_sartorii 1523 5 1578  73 70 1  98 96 1  1208 1166 1
+Bacteroides_fragilis 1525 5 1578  73 70 1  98 96 1  439 422 1  1208 1168 1
+Bacteroides_stercoris 1523 5 1578  73 70 1  98 96 1  439 422 1  1208 1166 1
+Bacteroides_thetaiotaomicron 1525 8 1580  73 67 1  75 70 1  97 93 1  98 95 1  439 421 1  927 897 1  1208 1166 1
+Bacteroides_A_salanitronis 1528 8 1580  73 67 1  98 93 1  358 341 1  439 423 1  1208 1169 1
+Bacteroides_nordii 1517 8 1580  73 67 1  98 89 1  439 415 1  863 828 1  869 835 1  1208 1158 1
+Bacteroides_reticulotermitis 1517 8 1580  73 67 1  98 89 1  231 213 1  439 415 1  1208 1158 1
+Bacteroides_rodentium 1521 8 1580  73 67 1  98 93 1  439 419 1  1208 1162 1
+Bacteroides_zoogleoformans 1523 8 1580  73 67 1  98 93 1  439 419 1  1208 1163 1
+Bacteroides_faecichinchillae 1519 8 1580  73 67 1  98 91 1  439 417 1  1208 1160 1
+Bacteroides_pyogenes_A 1524 5 1578  73 70 1  75 73 1  97 96 1  98 98 1  439 423 1  512 490 1  1208 1167 1
+Bacteroides_helcogenes 1521 5 1578  73 70 1  98 94 1  439 420 1  1208 1164 1
+Bacteroides_A_coprocola 1524 5 1578  73 70 1  98 96 1  439 423 1  1208 1167 1
+Bacteroides_A_coprophilus 1527 5 1578  73 70 1  98 96 1  439 423 1  512 490 1  1208 1170 1
+Bacteroides_ovatus 1524 8 1580  73 67 1  75 70 1  97 93 1  98 95 1  439 421 1  1208 1165 1
+Bacteroides_A_sp900066445 1523 8 1580  73 67 1  98 93 1  439 420 1  863 833 1  869 840 1  1023 991 1  1208 1164 1
+Bacteroides_fluxus 1520 8 1580  73 67 1  98 91 1  439 417 1  1208 1161 1
+Bacteroides_uniformis 1523 5 1578  73 70 1  98 96 1  439 422 1  1208 1166 1
+Bacteroides_finegoldii 2095 30 1580  73 45 1  75 48 1  97 71 1  98 73 1  439 399 1  693 647 593  863 1405 1  869 1412 1  1208 1736 1
+Bacteroides_salyersiae 1518 8 1580  73 67 1  98 89 1  439 415 1  1208 1159 1
+Bacteroides_cellulosilyticus 1519 5 1578  73 70 1  98 92 1  439 418 1  1208 1162 1
+Bacteroides_massiliensis 1524 5 1578  73 70 1  98 94 1  439 421 1  1208 1167 1
+Bacteroides_A_sp900066455 1523 8 1580  73 67 1  98 93 1  439 420 1  1208 1164 1
+Bacteroides_ihuae 1514 8 1580  73 67 1  98 85 1  439 411 1  1208 1155 1
+Bacteroides_B_dorei 1528 5 1578  73 70 1  98 96 1  227 217 2  439 425 1  863 838 1  869 845 1  1208 1171 1
+Bacteroides_intestinalis 1519 5 1578  73 70 1  98 92 1  439 418 1  1208 1162 1
+Bacteroides_clarus 1522 8 1580  73 67 1  98 93 1  439 419 1  1208 1163 1
+Bacteroides_caccae 1525 5 1578  73 70 1  75 73 1  97 96 1  98 98 1  439 424 1  1208 1168 1
+Bacteroides_stercorirosoris 1518 5 1578  73 70 1  98 92 1  439 418 1  1208 1161 1
+Bacteroides_E_coprosuis 1525 5 1578  73 70 1  98 96 1  439 423 1  1208 1167 1
+Bacteroides_congonensis 1525 8 1580  73 67 1  75 70 1  97 93 1  98 95 1  439 421 1  1208 1166 1
+Bacteroides_cutis 1523 5 1578  73 70 1  98 96 1  439 422 1  863 835 1  869 842 1  1208 1166 1
+Bacteroides_A_ilei 1523 8 1580  73 67 1  98 93 1  439 420 1  1208 1164 1
+Bacteroides_heparinolyticus 1523 8 1580  73 67 1  98 93 1  439 419 1  1208 1163 1
+Bacteroides_A_mediterraneensis 1523 8 1580  73 67 1  98 93 1  439 420 1  443 424 1  1208 1164 1
+Bacteroides_ndongoniae 1524 8 1580  73 67 1  98 93 1  439 419 1  863 832 1  869 839 1  1208 1165 1
+Bacteroides_faecis 1524 8 1580  73 67 1  75 70 1  97 93 1  98 95 1  439 421 1  1208 1165 1
+Bacteroides_B_massiliensis 1525 8 1580  73 67 1  98 93 1  439 420 1  863 833 1  869 840 1  1208 1166 1
+Bacteroides_luti 1515 8 1580  73 67 1  98 85 1  439 412 1  682 649 1  762 729 1  1208 1156 1
+Bacteroides_neonati 1515 5 1578  73 70 1  98 88 1  439 414 1  1208 1158 1
+Bacteroides_F_pectinophilus 1528 8 1580  73 66 1  75 69 5  90 89 2  97 98 2  98 101 1  99 103 2  1028 989 1  1062 1021 1  1281 1233 1  1323 1276 2
+Bacteroides_A_sp002161565 1524 5 1578  73 70 1  98 96 1  439 423 1  1208 1167 1
+Bacteroides_B_vulgatus 1524 5 1578  73 70 1  98 96 1  439 423 1  1208 1167 1
+Bacteroides_bouchesdurhonensis 1525 1 1580  73 74 1  98 96 1  439 422 1  1208 1166 1
+Bacteroides_C_paurosaccharolyticus 1526 6 1578  73 69 1  75 72 1  97 95 1  98 97 1  439 424 1  1208 1169 1
+Bacteroides_acidifaciens 1524 5 1578  73 70 1  75 73 1  97 96 1  98 98 1  439 424 1  1208 1167 1
+Bacteroides_eggerthii 1523 5 1578  73 70 1  98 96 1  439 422 1  1208 1166 1
+Bacteroides_oleiciplenus 1520 5 1578  73 70 1  98 92 1  439 418 1  1208 1162 1
+//

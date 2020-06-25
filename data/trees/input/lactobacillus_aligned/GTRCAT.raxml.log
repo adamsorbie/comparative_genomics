@@ -1,0 +1,72 @@
+
+RAxML-NG v. 0.9.0 released on 20.05.2019 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 19-Jun-2020 21:23:00 as follows:
+
+raxml-ng --evaluate --seed 1234 --log progress --threads 4 --msa Lactobacillus_16S_renamed_filt_aligned.bacteria.mask.fna --model GTR+G --tree RAxML_fastTree.lactobacillus_raxml_tree_GTRCAT --brlen scaled --prefix GTRCAT
+
+Analysis options:
+  run mode: Evaluate tree likelihood
+  start tree(s): user
+  random seed: 1234
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (4 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: Lactobacillus_16S_renamed_filt_aligned.bacteria.mask.fna
+[00:00:00] Loaded alignment with 155 taxa and 1562 sites
+
+Alignment comprises 1 partitions and 519 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1562 / 519
+Gaps: 1.33 %
+Invariant sites: 67.86 %
+
+
+NOTE: Binary MSA file created: GTRCAT.raxml.rba
+
+[00:00:00] Loading user starting tree(s) from: RAxML_fastTree.lactobacillus_raxml_tree_GTRCAT
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 130 / 2080
+
+Evaluating 1 trees
+
+[00:00:00] Tree #1, initial LogLikelihood: -31157.679961
+
+[00:00:00 -31157.679961] Initial branch length optimization
+[00:00:00 -25980.696501] Model parameter optimization (eps = 0.100000)
+
+[00:00:01] Tree #1, final logLikelihood: -23489.032063
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.222824 (ML),  weights&rates: (0.250000,0.001077) (0.250000,0.047893) (0.250000,0.440573) (0.250000,3.510457) 
+   Base frequencies (ML): 0.241355 0.225039 0.281633 0.251973 
+   Substitution rates (ML): 1.199457 5.383488 2.361269 0.445474 5.468261 1.000000 
+
+
+Final LogLikelihood: -23489.032063
+
+AIC score: 47610.064125 / AICc score: 47770.983001 / BIC score: 49301.840382
+Free parameters (model + branch lengths): 316
+
+Best ML tree saved to: /dss/dsshome1/lxc00/ga92yuh2/comparative_metagenomics/input/lactobacillus_aligned/GTRCAT.raxml.bestTree
+Optimized model saved to: /dss/dsshome1/lxc00/ga92yuh2/comparative_metagenomics/input/lactobacillus_aligned/GTRCAT.raxml.bestModel
+
+Execution log saved to: /dss/dsshome1/lxc00/ga92yuh2/comparative_metagenomics/input/lactobacillus_aligned/GTRCAT.raxml.log
+
+Analysis started: 19-Jun-2020 21:23:00 / finished: 19-Jun-2020 21:23:01
+
+Elapsed time: 1.335 seconds
+

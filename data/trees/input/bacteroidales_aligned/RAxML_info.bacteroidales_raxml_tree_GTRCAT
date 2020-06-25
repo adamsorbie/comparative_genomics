@@ -1,0 +1,67 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 532 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.18%
+
+RAxML experimental very fast tree search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 532
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 4 -f E -p 1234 -x 5678 -m GTRCAT -N 1000 -s bacteroidales_seqs_filt_aligned.bacteria.mask.fna -n bacteroidales_raxml_tree_GTRCAT 
+
+
+Time after init : 0.015779
+Time after init and starting tree: 0.073133
+Time after init, starting tree, mod opt: 0.456315
+Partion 0 number of Cats: 25
+LH after SPRs -16634.787295, after NNI -16630.275380
+LH after SPRs -16629.906977, after NNI -16629.737113
+LH after SPRs -16629.737030, after NNI -16629.736846
+RAxML fast tree written to file: /dss/dsshome1/lxc00/ga92yuh2/comparative_metagenomics/input/bacteroidales_aligned/RAxML_fastTree.bacteroidales_raxml_tree_GTRCAT
+
+Model parameters (binary file format) written to: /dss/dsshome1/lxc00/ga92yuh2/comparative_metagenomics/input/bacteroidales_aligned/RAxML_binaryModelParameters.bacteroidales_raxml_tree_GTRCAT
+Total execution time: 2.669931
+Good bye ... 

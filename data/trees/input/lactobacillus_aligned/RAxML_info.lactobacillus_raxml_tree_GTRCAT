@@ -1,0 +1,67 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 519 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 1.33%
+
+RAxML experimental very fast tree search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 519
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 4 -f E -p 1234 -x 5678 -m GTRCAT -N 1000 -s Lactobacillus_16S_renamed_filt_aligned.bacteria.mask.fna -n lactobacillus_raxml_tree_GTRCAT 
+
+
+Time after init : 0.030127
+Time after init and starting tree: 0.352831
+Time after init, starting tree, mod opt: 1.203263
+Partion 0 number of Cats: 25
+LH after SPRs -21375.004691, after NNI -21369.633614
+LH after SPRs -21362.104567, after NNI -21359.593285
+LH after SPRs -21359.585168, after NNI -21359.564660
+RAxML fast tree written to file: /dss/dsshome1/lxc00/ga92yuh2/comparative_metagenomics/input/lactobacillus_aligned/RAxML_fastTree.lactobacillus_raxml_tree_GTRCAT
+
+Model parameters (binary file format) written to: /dss/dsshome1/lxc00/ga92yuh2/comparative_metagenomics/input/lactobacillus_aligned/RAxML_binaryModelParameters.lactobacillus_raxml_tree_GTRCAT
+Total execution time: 6.629949
+Good bye ... 
