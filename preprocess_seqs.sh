@@ -23,6 +23,8 @@ download_seqs(){
     wget https://www.dropbox.com/s/5lgiuntbi9ndztz/mibc_16S_seqs.zip?dl=1
 
     unzip mibc_16S_seqs.zip
+
+    cat *_mibc.fasta bac120_ssu.fna > bac120_mibc_ssu.fna
 }
 
 download_seqs
@@ -33,7 +35,7 @@ taxa=$@
 # loop through taxa and extract seqs from database
 for i in $taxa;
 do
-    grep -A1 $i bac120_ssu.fna > $i"_16S.fna"
+    grep -A1 $i bac120_mibc_ssu.fna > $i"_16S.fna"
 done
 
 # rename fasta headers removing the stuff we don't need
@@ -41,8 +43,13 @@ rename_headers(){
 
     for i in *.fna;
     do
+        # fasta output filename
         outname=${i%.fna}
-        cut -d ";" -f7 $i  | cut -d " " -f1,2 | sed s/' '/'_'/g | sed s/'s__'/'>'/g > $outname"_renamed.fna"
+        # get id from start of line
+        id=$(cut -d " " -f1)
+        # extract species name, remove locus tag and location info, replace spaces with underscores, then strip
+        # s__ prefix
+        cut -d ";" -f7 $i  | cut -d " " -f1,2 | sed s/' '/'_'/g | sed s/'s__'/'>'/g | awk '{print $1"$id"}' > $outname"_renamed.fna"
         rm -f $i
     done
 }
@@ -90,7 +97,7 @@ process_seqs() {
 
     # make directory for downloaded 16S seqs and move file
     mkdir db_seqs
-    mv bac120_ssu.fna db_seqs
+    mv bac120* db_seqs
 
     # rename headers in fasta files so only genus and species name remain
     rename_headers
