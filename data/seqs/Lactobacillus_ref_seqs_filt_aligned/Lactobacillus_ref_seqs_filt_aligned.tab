@@ -1,0 +1,679 @@
+# command:    ssu-cmsearch --hmm-cW 1.5 --no-null3 --noalign -T -1 --tab Lactobacillus_ref_seqs_filt_aligned/Lactobacillus_ref_seqs_filt_aligned.tab --viterbi /home/adamsorbie/miniconda3/envs/bioinfo/share/ssu-align-0.1.1/ssu-align-0p1.cm Lactobacillus_ref_seqs_filt.fna
+# date:       Mon Jun 29 16:53:33 2020
+# num seqs:   183
+# dbsize(Mb): 0.568504
+#
+# Pre-search info for CM 1: archaea
+#
+# rnd  mod  alg  cfg   beta  bit sc cut
+# ---  ---  ---  ---  -----  ----------
+#   1  hmm  vit  loc      -       -1.00
+#
+# CM: archaea
+#                                                                                         target coord   query coord                         
+#                                                                               ----------------------  ------------                         
+# model name  target name                                                            start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ----------------------------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  archaea     RS_GCF_002706375.1_d__Bacteria;Lactobacillus_amylovorus                   49        1557      1   1508    723.03         -   53
+  archaea     RS_GCF_000615845.1_d__Bacteria;Lactobacillus_B_hayakitensis               50        1555      1   1508    746.85         -   52
+  archaea     RS_GCF_000876205.1_d__Bacteria;Lactobacillus_H_wasatchensis               49        1569      1   1508    727.08         -   51
+  archaea     RS_GCF_001311375.1_d__Bacteria;Lactobacillus_H_equigenerosi               50        1570      1   1508    740.06         -   53
+  archaea     RS_GCF_001435975.1_d__Bacteria;Lactobacillus_G_collinoides              1509           1      1   1508    728.73         -   52
+  archaea     RS_GCF_000615285.1_d__Bacteria;Lactobacillus_kitasatonis                1508           1      1   1508    723.41         -   53
+  archaea     RS_GCF_002911475.1_d__Bacteria;Lactobacillus_sp002911475                1509           1      1   1508    746.15         -   53
+  archaea     RS_GCF_900103655.1_d__Bacteria;Lactobacillus_kefiranofaciens            1509           1      1   1508    728.11         -   54
+  archaea     RS_GCF_001435325.1_d__Bacteria;Lactobacillus_intestinalis               1513           1      1   1508    728.85         -   54
+  archaea     RS_GCF_000159435.1_d__Bacteria;Lactobacillus_H_vaginalis                1406           1      1   1508    704.16         -   54
+  archaea     GB_GCA_000615245.1_d__Bacteria;Lactobacillus_C_rhamnosus                1515           1      1   1508    762.95         -   52
+  archaea     RS_GCF_002088015.1_d__Bacteria;Lactobacillus_crispatus                    49        1557      1   1508    722.57         -   53
+  archaea     RS_GCF_900240275.1_d__Bacteria;Lactobacillus_H_timonensis                 49        1568      1   1508    741.68         -   54
+  archaea     RS_GCF_001436735.1_d__Bacteria;Lactobacillus_O_cacaonum                  912         922      1   1508     -1.00         -   45
+  archaea     RS_GCF_001436735.1_d__Bacteria;Lactobacillus_O_cacaonum                 1504           1      1   1508    725.07         -   51
+  archaea     RS_GCF_001434225.1_d__Bacteria;Lactobacillus_O_nagelii                    49        1553      1   1508    723.90         -   52
+  archaea     RS_GCF_001436455.1_d__Bacteria;Lactobacillus_jensenii                   1508           1      1   1508    734.09         -   52
+  archaea     RS_GCF_001436045.1_d__Bacteria;Lactobacillus_H_frumenti                   50        1569      1   1508    770.08         -   54
+  archaea     RS_GCF_001435445.1_d__Bacteria;Lactobacillus_K_paralimentarius_B           9        1463      1   1508    708.46         -   51
+  archaea     RS_GCF_900112665.1_d__Bacteria;Lactobacillus_bombicola                  1511           1      1   1508    739.31         -   52
+  archaea     RS_GCF_001434535.1_d__Bacteria;Lactobacillus_B_animalis                   50        1558      1   1508    740.37         -   52
+  archaea     RS_GCF_001434535.1_d__Bacteria;Lactobacillus_B_animalis                  647         639      1   1508     -0.03         -   56
+  archaea     RS_GCF_001436305.1_d__Bacteria;Lactobacillus_ultunensis                   49        1557      1   1508    728.93         -   54
+  archaea     RS_GCF_000463075.2_d__Bacteria;Lactobacillus_F_plantarum_A                50        1561      1   1508    730.71         -   51
+  archaea     RS_GCF_000159355.1_d__Bacteria;Lactobacillus_johnsonii                  1518           1      1   1508    751.97         -   52
+  archaea     RS_GCF_000829035.1_d__Bacteria;Lactobacillus_C_paracasei                1515           1      1   1508    764.42         -   53
+  archaea     RS_GCF_000178475.1_d__Bacteria;Lactobacillus_amylolyticus               1509           1      1   1508    745.47         -   54
+  archaea     RS_GCF_001437125.1_d__Bacteria;Lactobacillus_G_paucivorans                48        1558      1   1508    736.32         -   52
+  archaea     RS_GCF_001434735.1_d__Bacteria;Lactobacillus_G_buchneri                    2        1457      1   1508    729.88         -   53
+  archaea     RS_GCF_001434465.1_d__Bacteria;Lactobacillus_H_oris                       50        1569      1   1508    736.22         -   54
+  archaea     RS_GCF_001434365.1_d__Bacteria;Lactobacillus_H_gastricus                  49        1567      1   1508    749.69         -   53
+  archaea     RS_GCF_001435895.1_d__Bacteria;Lactobacillus_G_parafarraginis           1519           1      1   1508    747.11         -   52
+  archaea     RS_GCF_001436755.1_d__Bacteria;Lactobacillus_O_aquaticus                1504           1      1   1508    733.84         -   51
+  archaea     RS_GCF_001434255.1_d__Bacteria;Lactobacillus_G_diolivorans              1520           1      1   1508    743.85         -   52
+  archaea     RS_GCF_002993975.1_d__Bacteria;Lactobacillus_G_micheneri                1517           1      1   1508    734.94         -   50
+  archaea     RS_GCF_001434275.1_d__Bacteria;Lactobacillus_K_mindensis                1512           1      1   1508    735.87         -   51
+  archaea     RS_GCF_002916935.1_d__Bacteria;Lactobacillus_sp002916935                  48        1560      1   1508    728.13         -   52
+  archaea     RS_GCF_001436255.1_d__Bacteria;Lactobacillus_G_rapi                       48        1567      1   1508    735.98         -   52
+  archaea     RS_GCF_002907375.1_d__Bacteria;Lactobacillus_G_lindneri                   49        1570      1   1508    732.37         -   52
+  archaea     RS_GCF_000469325.1_d__Bacteria;Lactobacillus_J_shenzhenensis               1        1451      1   1508    735.94         -   53
+  archaea     RS_GCF_900110005.1_d__Bacteria;Lactobacillus_B_ruminis_A                 912         920      1   1508     -0.03         -   56
+  archaea     RS_GCF_900110005.1_d__Bacteria;Lactobacillus_B_ruminis_A                1511           1      1   1508    724.92         -   51
+  archaea     RS_GCF_001663675.1_d__Bacteria;Lactobacillus_E_backii                     49        1562      1   1508    747.72         -   52
+  archaea     RS_GCF_000829055.1_d__Bacteria;Lactobacillus_C_casei                      49        1563      1   1508    763.16         -   53
+  archaea     RS_GCF_001949975.1_d__Bacteria;Lactobacillus_G_kunkeei_A                1452           1      1   1508    729.31         -   51
+  archaea     RS_GCF_001434585.1_d__Bacteria;Lactobacillus_K_crustorum                1512           1      1   1508    722.41         -   51
+  archaea     RS_GCF_001434845.1_d__Bacteria;Lactobacillus_O_hordei                      4        1455      1   1508    718.61         -   51
+  archaea     RS_GCF_000160875.1_d__Bacteria;Lactobacillus_iners                      1516           1      1   1508    764.37         -   53
+  archaea     RS_GCF_001436375.1_d__Bacteria;Lactobacillus_N_composti                   50        1555      1   1508    755.04         -   52
+  archaea     RS_GCF_001436115.1_d__Bacteria;Lactobacillus_C_brantae                  1518           1      1   1508    761.61         -   52
+  archaea     RS_GCF_001435095.1_d__Bacteria;Lactobacillus_G_spicheri                 1511           1      1   1508    722.27         -   52
+  archaea     RS_GCF_000583655.1_d__Bacteria;Lactobacillus_G_farraginis               1519           1      1   1508    746.88         -   54
+  archaea     RS_GCF_000615805.1_d__Bacteria;Lactobacillus_D_fuchuensis                 50        1565      1   1508    777.72         -   52
+  archaea     RS_GCF_002970915.1_d__Bacteria;Lactobacillus_F_sp002970915                50        1568      1   1508    721.40         -   51
+  archaea     RS_GCF_001591685.1_d__Bacteria;Lactobacillus_B_murinus                    50        1558      1   1508    748.18         -   52
+  archaea     RS_GCF_001591685.1_d__Bacteria;Lactobacillus_B_murinus                   647         639      1   1508     -0.03         -   56
+  archaea     RS_GCF_001435375.1_d__Bacteria;Lactobacillus_B_aviarius_D                 50        1557      1   1508    729.41         -   51
+  archaea     RS_GCF_001434895.1_d__Bacteria;Lactobacillus_G_odoratitofui             1511           1      1   1508    743.14         -   53
+  archaea     RS_GCF_001436225.1_d__Bacteria;Lactobacillus_C_sharpeae                 1458           1      1   1508    760.14         -   53
+  archaea     RS_GCF_001435505.1_d__Bacteria;Lactobacillus_K_futsaii                    49        1560      1   1508    725.46         -   51
+  archaea     RS_GCF_001437435.1_d__Bacteria;Lactobacillus_I_siliginis                  50        1569      1   1508    705.46         -   51
+  archaea     RS_GCF_001311175.1_d__Bacteria;Lactobacillus_C_pantheris                1518           1      1   1508    711.58         -   52
+  archaea     RS_GCF_900156885.1_d__Bacteria;Lactobacillus_H_sp900156885                49        1567      1   1508    749.44         -   54
+  archaea     RS_GCF_001436775.1_d__Bacteria;Lactobacillus_acetotolerans              1515           1      1   1508    722.65         -   52
+  archaea     RS_GCF_000829395.1_d__Bacteria;Lactobacillus_H_hokkaidonensis             49        1572      1   1508    728.73         -   51
+  archaea     RS_GCF_000829395.1_d__Bacteria;Lactobacillus_H_hokkaidonensis            100          93      1   1508     -0.66         -   50
+  archaea     RS_GCF_001436505.1_d__Bacteria;Lactobacillus_E_rennini                    48        1561      1   1508    744.44         -   54
+  archaea     RS_GCF_000831645.3_d__Bacteria;Lactobacillus_K_heilongjiangensis        1512           1      1   1508    718.88         -   51
+  archaea     RS_GCF_001434935.1_d__Bacteria;Lactobacillus_O_uvarum                   1504           1      1   1508    736.29         -   51
+  archaea     RS_GCF_001281265.1_d__Bacteria;Lactobacillus_G_kunkeei                    48        1566      1   1508    732.89         -   51
+  archaea     RS_GCF_001311075.1_d__Bacteria;Lactobacillus_G_similis                  1511           1      1   1508    745.03         -   53
+  archaea     RS_GCF_000160835.1_d__Bacteria;Lactobacillus_H_antri                      50        1570      1   1508    738.70         -   54
+  archaea     RS_GCF_000785105.2_d__Bacteria;Lactobacillus_G_curieae                  1521           1      1   1508    771.13         -   52
+  archaea     RS_GCF_000615905.1_d__Bacteria;Lactobacillus_K_nodensis                 1517           1      1   1508    747.80         -   51
+  archaea     RS_GCF_001308205.1_d__Bacteria;Lactobacillus_G_kunkeei_B                  48        1566      1   1508    731.78         -   50
+  archaea     RS_GCF_001485255.1_d__Bacteria;Lactobacillus_K_farciminis_A               49        1560      1   1508    728.31         -   51
+  archaea     RS_GCF_000296835.1_d__Bacteria;Lactobacillus_hominis                    1517           1      1   1508    750.91         -   52
+  archaea     RS_GCF_001436275.1_d__Bacteria;Lactobacillus_O_oeni                       49        1554      1   1508    736.85         -   52
+  archaea     RS_GCF_000498955.2_d__Bacteria;Lactobacillus_F_fabifermentans             50        1560      1   1508    712.45         -   51
+  archaea     RS_GCF_001308195.1_d__Bacteria;Lactobacillus_G_kunkeei_C                   1        1452      1   1508    729.31         -   51
+  archaea     RS_GCF_001434335.1_d__Bacteria;Lactobacillus_kalixensis                   48        1556      1   1508    747.90         -   53
+  archaea     RS_GCF_001436315.1_d__Bacteria;Lactobacillus_B_aviarius                 1508           1      1   1508    729.39         -   51
+  archaea     RS_GCF_000297025.1_d__Bacteria;Lactobacillus_pasteurii                  1509           1      1   1508    756.45         -   54
+  archaea     RS_GCF_000967195.1_d__Bacteria;Lactobacillus_kullabergensis             1511           1      1   1508    732.86         -   53
+  archaea     RS_GCF_000970775.1_d__Bacteria;Lactobacillus_melliventris                 48        1852      1   1508    669.17         -   52
+  archaea     RS_GCF_001434665.1_d__Bacteria;Lactobacillus_K_tucceti                  1519           1      1   1508    768.45         -   51
+  archaea     RS_GCF_000967245.1_d__Bacteria;Lactobacillus_K_mellis                   1508           1      1   1508    763.48         -   54
+  archaea     RS_GCF_001281175.1_d__Bacteria;Lactobacillus_G_apinorum                    2        1833      1   1508    623.47         -   51
+  archaea     RS_GCF_001436605.1_d__Bacteria;Lactobacillus_floricola                  1518           1      1   1508    791.03         -   50
+  archaea     RS_GCF_002940945.1_d__Bacteria;Lactobacillus_H_pontis_A                   49        1569      1   1508    772.30         -   54
+  archaea     RS_GCF_001436695.1_d__Bacteria;Lactobacillus_taiwanensis                1518           1      1   1508    751.27         -   52
+  archaea     RS_GCF_001436095.1_d__Bacteria;Lactobacillus_L_dextrinicus                49        1567      1   1508    762.54         -   51
+  archaea     RS_GCF_001434115.1_d__Bacteria;Lactobacillus_G_zymae                    1511           1      1   1508    737.54         -   52
+  archaea     RS_GCF_003124125.1_d__Bacteria;Lactobacillus_G_bambusae                 1512           1      1   1508    694.84         -   53
+  archaea     RS_GCF_001435775.1_d__Bacteria;Lactobacillus_H_ingluviei                1520           1      1   1508    751.16         -   54
+  archaea     RS_GCF_001436295.1_d__Bacteria;Lactobacillus_H_vaccinostercus           1523           1      1   1508    722.46         -   52
+  archaea     RS_GCF_001591845.1_d__Bacteria;Lactobacillus_acidophilus                1509           1      1   1508    732.57         -   54
+  archaea     RS_GCF_001434475.1_d__Bacteria;Lactobacillus_H_suebicus                   49        1570      1   1508    727.71         -   52
+  archaea     RS_GCF_001435575.1_d__Bacteria;Lactobacillus_G_sunkii                     48        1567      1   1508    730.01         -   52
+  archaea     RS_GCF_002849895.1_d__Bacteria;Lactobacillus_K_alimentarius               49        1560      1   1508    715.40         -   50
+  archaea     RS_GCF_000615765.1_d__Bacteria;Lactobacillus_B_equi                     1507           1      1   1508    769.61         -   52
+  archaea     RS_GCF_001311195.1_d__Bacteria;Lactobacillus_C_camelliae                1517           1      1   1508    743.45         -   53
+  archaea     RS_GCF_002970935.1_d__Bacteria;Lactobacillus_F_sp002970935                50        1568      1   1508    722.65         -   51
+  archaea     RS_GCF_001435525.1_d__Bacteria;Lactobacillus_G_koreensis                1455           1      1   1508    729.20         -   52
+  archaea     RS_GCF_000159315.1_d__Bacteria;Lactobacillus_G_hilgardii                  48        1566      1   1508    739.41         -   52
+  archaea     RS_GCF_001435345.1_d__Bacteria;Lactobacillus_H_pontis                      6        1458      1   1508    762.15         -   54
+  archaea     RS_GCF_002994005.1_d__Bacteria;Lactobacillus_G_quenuiae                 1518           1      1   1508    734.65         -   51
+  archaea     RS_GCF_002158885.1_d__Bacteria;Lactobacillus_gasseri_A                    48        1565      1   1508    748.89         -   52
+  archaea     GB_GCA_001311765.1_d__Bacteria;Lactobacillus_equicursoris               1507           1      1   1508    785.35         -   54
+  archaea     RS_GCF_000614735.1_d__Bacteria;Lactobacillus_gallinarum                 1507           1      1   1508    720.64         -   54
+  archaea     RS_GCF_001438805.1_d__Bacteria;Lactobacillus_K_kimchiensis              1512           1      1   1508    726.09         -   51
+  archaea     RS_GCF_001434575.1_d__Bacteria;Lactobacillus_E_bifermentans             1373           1      1   1508    631.39         -   52
+  archaea     RS_GCF_001050475.1_d__Bacteria;Lactobacillus_K_ginsenosidimutans        1519           1      1   1508    755.21         -   51
+  archaea     RS_GCF_001435815.1_d__Bacteria;Lactobacillus_K_nantensis                  49        1560      1   1508    726.73         -   51
+  archaea     RS_GCF_001434705.1_d__Bacteria;Lactobacillus_C_nasuensis                  48        1561      1   1508    784.19         -   53
+  archaea     RS_GCF_001434315.1_d__Bacteria;Lactobacillus_H_oligofermentans          1519           1      1   1508    739.94         -   52
+  archaea     RS_GCF_001293735.1_d__Bacteria;Lactobacillus_H_gorillae                 1452           1      1   1508    729.28         -   54
+  archaea     RS_GCF_001434145.1_d__Bacteria;Lactobacillus_G_otakiensis                  1        1405      1   1508    690.83         -   52
+  archaea     RS_GCF_001438845.1_d__Bacteria;Lactobacillus_F_xiangfangensis           1511           1      1   1508    723.79         -   52
+  archaea     RS_GCF_000260415.1_d__Bacteria;Lactobacillus_O_mali                     1505           1      1   1508    720.51         -   51
+  archaea     RS_GCF_001592085.1_d__Bacteria;Lactobacillus_G_senmaizukei              1511           1      1   1508    749.20         -   52
+  archaea     RS_GCF_001433855.1_d__Bacteria;Lactobacillus_G_brevis                   1511           1      1   1508    735.83         -   52
+  archaea     RS_GCF_002953655.1_d__Bacteria;Lactobacillus_D_sakei_A                    50        1568      1   1508    782.92         -   52
+  archaea     RS_GCF_002179915.1_d__Bacteria;Lactobacillus_K_paralimentarius_A          49        1560      1   1508    711.80         -   51
+  archaea     RS_GCF_000016825.1_d__Bacteria;Lactobacillus_H_reuteri                    49        1569      1   1508    746.19         -   54
+  archaea     RS_GCF_001936335.1_d__Bacteria;Lactobacillus_amylophilus                1519           1      1   1508    755.84         -   51
+  archaea     RS_GCF_001435235.1_d__Bacteria;Lactobacillus_O_ghanensis                  49        1553      1   1508    725.31         -   52
+  archaea     RS_GCF_000760615.1_d__Bacteria;Lactobacillus_sp000760615                  48        1558      1   1508    734.55         -   53
+  archaea     RS_GCF_000160855.1_d__Bacteria;Lactobacillus_helveticus                  686         876      1   1508     -0.40         -   52
+  archaea     RS_GCF_000160855.1_d__Bacteria;Lactobacillus_helveticus                 1509           1      1   1508    716.62         -   53
+  archaea     RS_GCF_002370355.1_d__Bacteria;Lactobacillus_D_sakei                    1519           1      1   1508    785.06         -   52
+  archaea     RS_GCF_001437205.1_d__Bacteria;Lactobacillus_M_selangorensis            1749         247      1   1508    736.24         -   52
+  archaea     RS_GCF_001435195.1_d__Bacteria;Lactobacillus_O_satsumensis              1506           1      1   1508    736.61         -   52
+  archaea     RS_GCF_001433995.1_d__Bacteria;Lactobacillus_G_kimchicus                1455           1      1   1508    739.75         -   53
+  archaea     GB_GCA_001311425.1_d__Bacteria;Lactobacillus_G_kisonensis               1520           1      1   1508    720.32         -   52
+  archaea     RS_GCF_001434835.1_d__Bacteria;Lactobacillus_G_acidifarinae             1511           1      1   1508    738.39         -   52
+  archaea     RS_GCF_001434405.1_d__Bacteria;Lactobacillus_B_apodemi                   858         866      1   1508     -0.03         -   56
+  archaea     RS_GCF_001434405.1_d__Bacteria;Lactobacillus_B_apodemi                  1455          74      1   1508    654.63         -   52
+  archaea     RS_GCF_001434095.1_d__Bacteria;Lactobacillus_G_fructivorans             1521           1      1   1508    758.93         -   52
+  archaea     RS_GCF_001434055.1_d__Bacteria;Lactobacillus_G_parabrevis               1511           1      1   1508    743.34         -   52
+  archaea     RS_GCF_002762335.1_d__Bacteria;Lactobacillus_K_sp002762335              1519           1      1   1508    751.02         -   51
+  archaea     RS_GCF_001971585.1_d__Bacteria;Lactobacillus_K_allii                      49        1570      1   1508    760.70         -   51
+  archaea     RS_GCF_001436555.1_d__Bacteria;Lactobacillus_G_senioris                   49        1568      1   1508    758.33         -   53
+  archaea     RS_GCF_001435835.1_d__Bacteria;Lactobacillus_L_concavus                 1519           1      1   1508    762.94         -   52
+  archaea     RS_GCF_001434985.1_d__Bacteria;Lactobacillus_K_paralimentarius            49        1560      1   1508    710.94         -   51
+  archaea     RS_GCF_001435315.1_d__Bacteria;Lactobacillus_G_parabuchneri             1520           1      1   1508    730.01         -   52
+  archaea     GB_GCA_000615325.1_d__Bacteria;Lactobacillus_F_plantarum                1512           1      1   1508    731.59         -   51
+  archaea     RS_GCF_000014425.1_d__Bacteria;Lactobacillus_gasseri                    1518           1      1   1508    748.89         -   52
+  archaea     RS_GCF_001434915.1_d__Bacteria;Lactobacillus_O_capillatus               1504           1      1   1508    727.40         -   51
+  archaea     RS_GCF_001039045.1_d__Bacteria;Lactobacillus_F_herbarum                   50        1562      1   1508    720.06         -   51
+  archaea     RS_GCF_001435995.1_d__Bacteria;Lactobacillus_G_ozensis                    47        1560      1   1508    729.67         -   50
+  archaea     RS_GCF_900113455.1_d__Bacteria;Lactobacillus_B_ruminis                    50        1557      1   1508    757.53         -   52
+  archaea     RS_GCF_001436415.1_d__Bacteria;Lactobacillus_D_graminis                   50        1566      1   1508    786.95         -   52
+  archaea     RS_GCF_001434695.1_d__Bacteria;Lactobacillus_A_algidus                    49        1555      1   1508    765.87         -   51
+  archaea     RS_GCF_000296855.1_d__Bacteria;Lactobacillus_gigeriorum                 1445           1      1   1508    725.68         -   54
+  archaea     RS_GCF_001311785.1_d__Bacteria;Lactobacillus_C_saniviri                   48        1565      1   1508    742.98         -   52
+  archaea     RS_GCF_002706425.1_d__Bacteria;Lactobacillus_E_coryniformis             1515           1      1   1508    752.64         -   52
+  archaea     RS_GCF_002872255.1_d__Bacteria;Lactobacillus_K_sp002872255                49        1560      1   1508    729.63         -   51
+  archaea     RS_GCF_000159335.1_d__Bacteria;Lactobacillus_jensenii_A                   48        1555      1   1508    724.26         -   52
+  archaea     RS_GCF_001436645.1_d__Bacteria;Lactobacillus_G_florum                     49        1567      1   1508    732.03         -   52
+  archaea     RS_GCF_001434785.1_d__Bacteria;Lactobacillus_G_namurensis                 48        1558      1   1508    747.68         -   53
+  archaea     RS_GCF_001433755.1_d__Bacteria;Lactobacillus_F_pentosus                   50        1561      1   1508    731.46         -   51
+  archaea     GB_GCA_003072625.1_d__Bacteria;Lactobacillus_H_reuteri_D                  49        1569      1   1508    742.39         -   54
+  archaea     GB_GCA_900411375.1_d__Bacteria;Lactobacillus_G_raoultii                  174        1691      1   1508    745.71         -   53
+  archaea     RS_GCF_000970855.1_d__Bacteria;Lactobacillus_helsingborgensis             48        1558      1   1508    725.38         -   52
+  archaea     GB_GCA_001311645.1_d__Bacteria;Lactobacillus_D_curvatus                   50        1563      1   1508    779.85         -   52
+  archaea     RS_GCF_002871555.1_d__Bacteria;Lactobacillus_H_vaginalis_A              1520           1      1   1508    767.23         -   54
+  archaea     RS_GCF_000612445.1_d__Bacteria;Lactobacillus_O_sucicola                 1504           1      1   1508    729.36         -   51
+  archaea     RS_GCF_001311135.1_d__Bacteria;Lactobacillus_G_paracollinoides            49        1557      1   1508    724.29         -   52
+  archaea     RS_GCF_001437155.1_d__Bacteria;Lactobacillus_O_mali_A                   1466           1      1   1508    642.92         -   51
+  archaea     RS_GCF_001437055.1_d__Bacteria;Lactobacillus_H_secaliphilus               49        1568      1   1508    758.29         -   54
+  archaea     RS_GCF_002706745.1_d__Bacteria;Lactobacillus_K_farciminis                 49        1560      1   1508    718.67         -   51
+  archaea     RS_GCF_000161935.1_d__Bacteria;Lactobacillus_H_coleohominis             1520           1      1   1508    728.18         -   54
+  archaea     RS_GCF_001312865.1_d__Bacteria;Lactobacillus_C_thailandensis            1516           1      1   1508    712.48         -   52
+  archaea     RS_GCF_001436215.1_d__Bacteria;Lactobacillus_B_agilis                     49        1556      1   1508    740.41         -   51
+  archaea     RS_GCF_000260435.1_d__Bacteria;Lactobacillus_C_zeae                     1454           1      1   1508    754.53         -   53
+  archaea     RS_GCF_000425905.1_d__Bacteria;Lactobacillus_psittaci                   1508           1      1   1508    733.01         -   52
+  archaea     RS_GCF_000615445.1_d__Bacteria;Lactobacillus_hamsteri                   1507           1      1   1508    738.88         -   53
+  archaea     KU196088.1_Lactobacillus_johnsonii                                        64        1386      1   1508    657.99         -   52
+  archaea     KU196091.1_Lactobacillus_murinus                                          44        1368      1   1508    655.97         -   52
+  archaea     KU196091.1_Lactobacillus_murinus                                         583         575      1   1508     -0.03         -   56
+  archaea     KR364777.1_Lactobacillus_sp.                                              55        1464      1   1508    647.81         -   52
+  archaea     KR364777.1_Lactobacillus_sp.                                             593         585      1   1508     -0.03         -   56
+  archaea     KU196090.1_Lactobacillus_murinus                                          36        1417      1   1508    658.78         -   52
+  archaea     KU196090.1_Lactobacillus_murinus                                         633         625      1   1508     -0.03         -   56
+  archaea     KU196089.1_Lactobacillus_murinus                                          35        1416      1   1508    658.78         -   52
+  archaea     KU196089.1_Lactobacillus_murinus                                         632         624      1   1508     -0.03         -   56
+  archaea     KR364779.1_Lactobacillus_sp.                                              50        1462      1   1508    671.89         -   53
+  archaea     KR364775.1_Lactobacillus_reuteri                                          45        1457      1   1508    656.60         -   54
+  archaea     KU196093.1_Lactobacillus_reuteri                                          36        1514      1   1508    658.55         -   54
+  archaea     KR364776.1_Lactobacillus_reuteri                                          47        1560      1   1508    721.71         -   54
+  archaea     HQ851022.1_Lactobacillus_rodentium                                        65        1387      1   1508    649.89         -   52
+  archaea     KR364778.1_Lactobacillus_sp.                                              60        1382      1   1508    657.46         -   53
+  archaea     KU196094.1_Lactobacillus_taiwanensis                                      35        1423      1   1508    661.70         -   52
+#
+# Post-search info for CM 1: archaea
+#
+# rnd  mod  alg  cfg   beta  bit sc cut  num hits  surv fract
+# ---  ---  ---  ---  -----  ----------  --------  ----------
+#   1  hmm  vit  loc      -       -1.00       194      0.4839
+#
+#    run time  (hr:min:sec)
+# -----------
+#    00:00:59
+#
+# Pre-search info for CM 2: bacteria
+#
+# rnd  mod  alg  cfg   beta  bit sc cut
+# ---  ---  ---  ---  -----  ----------
+#   1  hmm  vit  loc      -       -1.00
+#
+# CM: bacteria
+#                                                                                         target coord   query coord                         
+#                                                                               ----------------------  ------------                         
+# model name  target name                                                            start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ----------------------------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  bacteria    RS_GCF_002706375.1_d__Bacteria;Lactobacillus_amylovorus                    1        1559      1   1582   2082.12         -   53
+  bacteria    RS_GCF_000615845.1_d__Bacteria;Lactobacillus_B_hayakitensis                1        1557      1   1582   2125.91         -   52
+  bacteria    RS_GCF_000876205.1_d__Bacteria;Lactobacillus_H_wasatchensis                1        1571      1   1582   2069.73         -   51
+  bacteria    RS_GCF_001311375.1_d__Bacteria;Lactobacillus_H_equigenerosi                2        1572      1   1582   2065.72         -   53
+  bacteria    RS_GCF_001435975.1_d__Bacteria;Lactobacillus_G_collinoides              1557           1      1   1582   2052.79         -   52
+  bacteria    RS_GCF_000615285.1_d__Bacteria;Lactobacillus_kitasatonis                1556           1      1   1582   2076.60         -   53
+  bacteria    RS_GCF_002911475.1_d__Bacteria;Lactobacillus_sp002911475                1557           1      1   1582   2068.21         -   54
+  bacteria    RS_GCF_900103655.1_d__Bacteria;Lactobacillus_kefiranofaciens            1557           1      1   1582   2051.47         -   54
+  bacteria    RS_GCF_001435325.1_d__Bacteria;Lactobacillus_intestinalis               1561           1      1   1582   2073.73         -   54
+  bacteria    RS_GCF_000159435.1_d__Bacteria;Lactobacillus_H_vaginalis                1406           1      1   1582   1869.81         -   54
+  bacteria    GB_GCA_000615245.1_d__Bacteria;Lactobacillus_C_rhamnosus                1457        1486      1   1582      0.31         -   30
+  bacteria    GB_GCA_000615245.1_d__Bacteria;Lactobacillus_C_rhamnosus                1565           1      1   1582   2105.40         -   52
+  bacteria    RS_GCF_002088015.1_d__Bacteria;Lactobacillus_crispatus                     1        1559      1   1582   2077.36         -   53
+  bacteria    RS_GCF_900240275.1_d__Bacteria;Lactobacillus_H_timonensis                  1        1570      1   1582   2019.56         -   54
+  bacteria    RS_GCF_900240275.1_d__Bacteria;Lactobacillus_H_timonensis                650         201      1   1582     -0.61         -   52
+  bacteria    RS_GCF_001436735.1_d__Bacteria;Lactobacillus_O_cacaonum                 1552           1      1   1582   2137.27         -   51
+  bacteria    RS_GCF_001434225.1_d__Bacteria;Lactobacillus_O_nagelii                     1        1555      1   1582   2126.05         -   52
+  bacteria    RS_GCF_001436455.1_d__Bacteria;Lactobacillus_jensenii                    885         902      1   1582      0.49         -   33
+  bacteria    RS_GCF_001436455.1_d__Bacteria;Lactobacillus_jensenii                   1556           1      1   1582   2055.69         -   52
+  bacteria    RS_GCF_001436045.1_d__Bacteria;Lactobacillus_H_frumenti                    2        1571      1   1582   2033.10         -   54
+  bacteria    RS_GCF_001435445.1_d__Bacteria;Lactobacillus_K_paralimentarius_B           9        1465      1   1582   1998.59         -   51
+  bacteria    RS_GCF_900112665.1_d__Bacteria;Lactobacillus_bombicola                  1061        1094      1   1582      0.32         -   32
+  bacteria    RS_GCF_900112665.1_d__Bacteria;Lactobacillus_bombicola                  1559           1      1   1582   2057.61         -   52
+  bacteria    RS_GCF_001434535.1_d__Bacteria;Lactobacillus_B_animalis                    1        1560      1   1582   2161.23         -   52
+  bacteria    RS_GCF_001436305.1_d__Bacteria;Lactobacillus_ultunensis                    1        1559      1   1582   2067.91         -   54
+  bacteria    RS_GCF_000463075.2_d__Bacteria;Lactobacillus_F_plantarum_A                 1        1563      1   1582   2076.91         -   52
+  bacteria    RS_GCF_000159355.1_d__Bacteria;Lactobacillus_johnsonii                  1566           1      1   1582   2054.01         -   52
+  bacteria    RS_GCF_000829035.1_d__Bacteria;Lactobacillus_C_paracasei                1565           1      1   1582   2100.00         -   53
+  bacteria    RS_GCF_000178475.1_d__Bacteria;Lactobacillus_amylolyticus               1557           1      1   1582   2092.17         -   54
+  bacteria    RS_GCF_001437125.1_d__Bacteria;Lactobacillus_G_paucivorans                 1        1560      1   1582   2067.32         -   52
+  bacteria    RS_GCF_001434735.1_d__Bacteria;Lactobacillus_G_buchneri                    3        1459      1   1582   1966.02         -   53
+  bacteria    RS_GCF_001434465.1_d__Bacteria;Lactobacillus_H_oris                        2        1571      1   1582   2043.64         -   54
+  bacteria    RS_GCF_001434465.1_d__Bacteria;Lactobacillus_H_oris                      232         209      1   1582      0.25         -   29
+  bacteria    RS_GCF_001434365.1_d__Bacteria;Lactobacillus_H_gastricus                   1        1569      1   1582   2063.38         -   53
+  bacteria    RS_GCF_001435895.1_d__Bacteria;Lactobacillus_G_parafarraginis           1567           1      1   1582   2070.69         -   53
+  bacteria    RS_GCF_001436755.1_d__Bacteria;Lactobacillus_O_aquaticus                1552           1      1   1582   2122.78         -   51
+  bacteria    RS_GCF_001434255.1_d__Bacteria;Lactobacillus_G_diolivorans              1568           1      1   1582   2054.59         -   52
+  bacteria    RS_GCF_002993975.1_d__Bacteria;Lactobacillus_G_micheneri                 853         895      1   1582     -0.80         -   42
+  bacteria    RS_GCF_002993975.1_d__Bacteria;Lactobacillus_G_micheneri                1565           1      1   1582   2059.81         -   50
+  bacteria    RS_GCF_001434275.1_d__Bacteria;Lactobacillus_K_mindensis                1562           1      1   1582   2092.74         -   51
+  bacteria    RS_GCF_002916935.1_d__Bacteria;Lactobacillus_sp002916935                   1        1562      1   1582   2057.52         -   52
+  bacteria    RS_GCF_001436255.1_d__Bacteria;Lactobacillus_G_rapi                        1        1569      1   1582   2065.62         -   52
+  bacteria    RS_GCF_002907375.1_d__Bacteria;Lactobacillus_G_lindneri                    1        1572      1   1582   2010.11         -   52
+  bacteria    RS_GCF_002907375.1_d__Bacteria;Lactobacillus_G_lindneri                  716         692      1   1582     -0.74         -   40
+  bacteria    RS_GCF_000469325.1_d__Bacteria;Lactobacillus_J_shenzhenensis               1        1453      1   1582   1980.44         -   53
+  bacteria    RS_GCF_900110005.1_d__Bacteria;Lactobacillus_B_ruminis_A                1558           1      1   1582   2118.60         -   52
+  bacteria    RS_GCF_001663675.1_d__Bacteria;Lactobacillus_E_backii                      1        1564      1   1582   2123.73         -   52
+  bacteria    RS_GCF_000829055.1_d__Bacteria;Lactobacillus_C_casei                       1        1565      1   1582   2102.85         -   53
+  bacteria    RS_GCF_001949975.1_d__Bacteria;Lactobacillus_G_kunkeei_A                1452           1      1   1582   1985.40         -   51
+  bacteria    RS_GCF_001434585.1_d__Bacteria;Lactobacillus_K_crustorum                1562           1      1   1582   2091.76         -   51
+  bacteria    RS_GCF_001434845.1_d__Bacteria;Lactobacillus_O_hordei                      2        1457      1   1582   2050.40         -   51
+  bacteria    RS_GCF_000160875.1_d__Bacteria;Lactobacillus_iners                      1568           1      1   1582   2054.17         -   53
+  bacteria    RS_GCF_001436375.1_d__Bacteria;Lactobacillus_N_composti                    1        1557      1   1582   2075.65         -   52
+  bacteria    RS_GCF_001436115.1_d__Bacteria;Lactobacillus_C_brantae                  1568           1      1   1582   2095.73         -   52
+  bacteria    RS_GCF_001435095.1_d__Bacteria;Lactobacillus_G_spicheri                 1559           1      1   1582   2044.19         -   52
+  bacteria    RS_GCF_000583655.1_d__Bacteria;Lactobacillus_G_farraginis               1567           1      1   1582   2067.56         -   54
+  bacteria    RS_GCF_000615805.1_d__Bacteria;Lactobacillus_D_fuchuensis                  1        1567      1   1582   2115.09         -   52
+  bacteria    RS_GCF_002970915.1_d__Bacteria;Lactobacillus_F_sp002970915                 1        1570      1   1582   2080.73         -   51
+  bacteria    RS_GCF_001591685.1_d__Bacteria;Lactobacillus_B_murinus                     1        1560      1   1582   2161.57         -   52
+  bacteria    RS_GCF_001435375.1_d__Bacteria;Lactobacillus_B_aviarius_D                  1        1559      1   1582   2097.34         -   51
+  bacteria    RS_GCF_001434895.1_d__Bacteria;Lactobacillus_G_odoratitofui             1563           1      1   1582   2055.14         -   53
+  bacteria    RS_GCF_001436225.1_d__Bacteria;Lactobacillus_C_sharpeae                 1458           1      1   1582   1963.23         -   53
+  bacteria    RS_GCF_001435505.1_d__Bacteria;Lactobacillus_K_futsaii                     1        1562      1   1582   2103.45         -   51
+  bacteria    RS_GCF_001437435.1_d__Bacteria;Lactobacillus_I_siliginis                   1        1571      1   1582   2080.75         -   51
+  bacteria    RS_GCF_001311175.1_d__Bacteria;Lactobacillus_C_pantheris                1568           1      1   1582   2066.69         -   52
+  bacteria    RS_GCF_900156885.1_d__Bacteria;Lactobacillus_H_sp900156885                 1        1569      1   1582   2022.74         -   54
+  bacteria    RS_GCF_001436775.1_d__Bacteria;Lactobacillus_acetotolerans              1346        1374      1   1582      4.12         -   31
+  bacteria    RS_GCF_001436775.1_d__Bacteria;Lactobacillus_acetotolerans              1563           1      1   1582   2015.68         -   52
+  bacteria    RS_GCF_000829395.1_d__Bacteria;Lactobacillus_H_hokkaidonensis              1        1574      1   1582   2054.52         -   51
+  bacteria    RS_GCF_001436505.1_d__Bacteria;Lactobacillus_E_rennini                     1        1563      1   1582   2030.52         -   54
+  bacteria    RS_GCF_001436505.1_d__Bacteria;Lactobacillus_E_rennini                   706         682      1   1582      0.80         -   40
+  bacteria    RS_GCF_000831645.3_d__Bacteria;Lactobacillus_K_heilongjiangensis        1562           1      1   1582   2093.13         -   51
+  bacteria    RS_GCF_001434935.1_d__Bacteria;Lactobacillus_O_uvarum                   1552           1      1   1582   2121.96         -   51
+  bacteria    RS_GCF_001281265.1_d__Bacteria;Lactobacillus_G_kunkeei                     1        1568      1   1582   2084.98         -   51
+  bacteria    RS_GCF_001311075.1_d__Bacteria;Lactobacillus_G_similis                   919        1363      1   1582     -0.61         -   51
+  bacteria    RS_GCF_001311075.1_d__Bacteria;Lactobacillus_G_similis                  1563           1      1   1582   2044.43         -   53
+  bacteria    RS_GCF_000160835.1_d__Bacteria;Lactobacillus_H_antri                       2        1572      1   1582   2045.80         -   54
+  bacteria    RS_GCF_000785105.2_d__Bacteria;Lactobacillus_G_curieae                  1569           1      1   1582   2077.12         -   52
+  bacteria    RS_GCF_000615905.1_d__Bacteria;Lactobacillus_K_nodensis                 1567           1      1   1582   2088.34         -   51
+  bacteria    RS_GCF_001308205.1_d__Bacteria;Lactobacillus_G_kunkeei_B                   1        1568      1   1582   2084.14         -   51
+  bacteria    RS_GCF_001485255.1_d__Bacteria;Lactobacillus_K_farciminis_A                1        1562      1   1582   2101.40         -   51
+  bacteria    RS_GCF_000296835.1_d__Bacteria;Lactobacillus_hominis                    1565           1      1   1582   2044.70         -   53
+  bacteria    RS_GCF_001436275.1_d__Bacteria;Lactobacillus_O_oeni                        1        1556      1   1582   2122.80         -   52
+  bacteria    RS_GCF_000498955.2_d__Bacteria;Lactobacillus_F_fabifermentans              1        1562      1   1582   2064.24         -   51
+  bacteria    RS_GCF_001308195.1_d__Bacteria;Lactobacillus_G_kunkeei_C                   1        1454      1   1582   1992.34         -   51
+  bacteria    RS_GCF_001434335.1_d__Bacteria;Lactobacillus_kalixensis                    1        1558      1   1582   2082.12         -   53
+  bacteria    RS_GCF_001436315.1_d__Bacteria;Lactobacillus_B_aviarius                 1560           1      1   1582   2085.65         -   51
+  bacteria    RS_GCF_000297025.1_d__Bacteria;Lactobacillus_pasteurii                  1557           1      1   1582   2077.54         -   54
+  bacteria    RS_GCF_000967195.1_d__Bacteria;Lactobacillus_kullabergensis             1559           1      1   1582   2043.49         -   53
+  bacteria    RS_GCF_000970775.1_d__Bacteria;Lactobacillus_melliventris                  1        1854      1   1582   1977.66         -   52
+  bacteria    RS_GCF_001434665.1_d__Bacteria;Lactobacillus_K_tucceti                  1569           1      1   1582   2126.72         -   51
+  bacteria    RS_GCF_000967245.1_d__Bacteria;Lactobacillus_K_mellis                   1557           1      1   1582   2069.07         -   54
+  bacteria    RS_GCF_001281175.1_d__Bacteria;Lactobacillus_G_apinorum                    1        1835      1   1582   1847.37         -   51
+  bacteria    RS_GCF_001436605.1_d__Bacteria;Lactobacillus_floricola                  1566           1      1   1582   2116.76         -   51
+  bacteria    RS_GCF_002940945.1_d__Bacteria;Lactobacillus_H_pontis_A                    1        1571      1   1582   2041.41         -   54
+  bacteria    RS_GCF_001436695.1_d__Bacteria;Lactobacillus_taiwanensis                1566           1      1   1582   2049.13         -   52
+  bacteria    RS_GCF_001436095.1_d__Bacteria;Lactobacillus_L_dextrinicus                 1        1569      1   1582   2157.99         -   51
+  bacteria    RS_GCF_001434115.1_d__Bacteria;Lactobacillus_G_zymae                    1559           1      1   1582   2067.32         -   52
+  bacteria    RS_GCF_003124125.1_d__Bacteria;Lactobacillus_G_bambusae                 1560           1      1   1582   2044.78         -   53
+  bacteria    RS_GCF_001435775.1_d__Bacteria;Lactobacillus_H_ingluviei                1570           1      1   1582   2050.01         -   54
+  bacteria    RS_GCF_001436295.1_d__Bacteria;Lactobacillus_H_vaccinostercus           1573           1      1   1582   2064.17         -   52
+  bacteria    RS_GCF_001591845.1_d__Bacteria;Lactobacillus_acidophilus                1556           1      1   1582   2069.89         -   54
+  bacteria    RS_GCF_001434475.1_d__Bacteria;Lactobacillus_H_suebicus                    1        1572      1   1582   2070.87         -   52
+  bacteria    RS_GCF_001435575.1_d__Bacteria;Lactobacillus_G_sunkii                      1        1569      1   1582   2052.44         -   52
+  bacteria    RS_GCF_002849895.1_d__Bacteria;Lactobacillus_K_alimentarius                1        1562      1   1582   2085.33         -   50
+  bacteria    RS_GCF_000615765.1_d__Bacteria;Lactobacillus_B_equi                     1559           1      1   1582   2129.21         -   52
+  bacteria    RS_GCF_001311195.1_d__Bacteria;Lactobacillus_C_camelliae                1567           1      1   1582   2067.26         -   53
+  bacteria    RS_GCF_002970935.1_d__Bacteria;Lactobacillus_F_sp002970935                 1        1570      1   1582   2081.46         -   51
+  bacteria    RS_GCF_001435525.1_d__Bacteria;Lactobacillus_G_koreensis                1449           1      1   1582   1968.65         -   52
+  bacteria    RS_GCF_000159315.1_d__Bacteria;Lactobacillus_G_hilgardii                   1        1568      1   1582   2068.56         -   52
+  bacteria    RS_GCF_001435345.1_d__Bacteria;Lactobacillus_H_pontis                      8        1459      1   1582   1958.85         -   54
+  bacteria    RS_GCF_002994005.1_d__Bacteria;Lactobacillus_G_quenuiae                 1566           1      1   1582   2062.55         -   51
+  bacteria    RS_GCF_002158885.1_d__Bacteria;Lactobacillus_gasseri_A                     1        1567      1   1582   2052.59         -   52
+  bacteria    GB_GCA_001311765.1_d__Bacteria;Lactobacillus_equicursoris               1556           1      1   1582   2084.03         -   54
+  bacteria    RS_GCF_000614735.1_d__Bacteria;Lactobacillus_gallinarum                 1555           1      1   1582   2053.85         -   54
+  bacteria    RS_GCF_001438805.1_d__Bacteria;Lactobacillus_K_kimchiensis              1562           1      1   1582   2095.19         -   51
+  bacteria    RS_GCF_001434575.1_d__Bacteria;Lactobacillus_E_bifermentans             1423           1      1   1582   1909.31         -   52
+  bacteria    RS_GCF_001050475.1_d__Bacteria;Lactobacillus_K_ginsenosidimutans        1569           1      1   1582   2102.62         -   51
+  bacteria    RS_GCF_001435815.1_d__Bacteria;Lactobacillus_K_nantensis                   1        1562      1   1582   2100.21         -   51
+  bacteria    RS_GCF_001434705.1_d__Bacteria;Lactobacillus_C_nasuensis                   1        1563      1   1582   2109.08         -   53
+  bacteria    RS_GCF_001434315.1_d__Bacteria;Lactobacillus_H_oligofermentans          1569           1      1   1582   2087.64         -   51
+  bacteria    RS_GCF_001293735.1_d__Bacteria;Lactobacillus_H_gorillae                 1465           1      1   1582   1958.05         -   54
+  bacteria    RS_GCF_001434145.1_d__Bacteria;Lactobacillus_G_otakiensis                  1        1407      1   1582   1914.31         -   52
+  bacteria    RS_GCF_001438845.1_d__Bacteria;Lactobacillus_F_xiangfangensis           1561           1      1   1582   2070.19         -   52
+  bacteria    RS_GCF_000260415.1_d__Bacteria;Lactobacillus_O_mali                     1554           1      1   1582   2133.87         -   51
+  bacteria    RS_GCF_001592085.1_d__Bacteria;Lactobacillus_G_senmaizukei               919        1363      1   1582     -0.61         -   50
+  bacteria    RS_GCF_001592085.1_d__Bacteria;Lactobacillus_G_senmaizukei              1559           1      1   1582   2064.74         -   52
+  bacteria    RS_GCF_001433855.1_d__Bacteria;Lactobacillus_G_brevis                   1559           1      1   1582   2059.14         -   52
+  bacteria    RS_GCF_002953655.1_d__Bacteria;Lactobacillus_D_sakei_A                     1        1570      1   1582   2121.79         -   52
+  bacteria    RS_GCF_002953655.1_d__Bacteria;Lactobacillus_D_sakei_A                   102          82      1   1582      0.38         -   48
+  bacteria    RS_GCF_002179915.1_d__Bacteria;Lactobacillus_K_paralimentarius_A           1        1562      1   1582   2091.21         -   51
+  bacteria    RS_GCF_000016825.1_d__Bacteria;Lactobacillus_H_reuteri                     1        1571      1   1582   2039.01         -   54
+  bacteria    RS_GCF_001936335.1_d__Bacteria;Lactobacillus_amylophilus                1568           1      1   1582   2065.92         -   51
+  bacteria    RS_GCF_001435235.1_d__Bacteria;Lactobacillus_O_ghanensis                   1        1555      1   1582   2135.05         -   52
+  bacteria    RS_GCF_000760615.1_d__Bacteria;Lactobacillus_sp000760615                   1        1560      1   1582   2054.17         -   53
+  bacteria    RS_GCF_000160855.1_d__Bacteria;Lactobacillus_helveticus                 1557           1      1   1582   2059.01         -   53
+  bacteria    RS_GCF_002370355.1_d__Bacteria;Lactobacillus_D_sakei                    1467        1487      1   1582      0.38         -   48
+  bacteria    RS_GCF_002370355.1_d__Bacteria;Lactobacillus_D_sakei                    1568           1      1   1582   2110.90         -   52
+  bacteria    RS_GCF_001437205.1_d__Bacteria;Lactobacillus_M_selangorensis            1799         243      1   1582   2141.22         -   52
+  bacteria    RS_GCF_001435195.1_d__Bacteria;Lactobacillus_O_satsumensis              1554           1      1   1582   2119.71         -   52
+  bacteria    RS_GCF_001433995.1_d__Bacteria;Lactobacillus_G_kimchicus                1454           1      1   1582   1956.27         -   53
+  bacteria    GB_GCA_001311425.1_d__Bacteria;Lactobacillus_G_kisonensis               1568           1      1   1582   2028.07         -   52
+  bacteria    RS_GCF_001434835.1_d__Bacteria;Lactobacillus_G_acidifarinae             1559           1      1   1582   2065.74         -   52
+  bacteria    RS_GCF_001434405.1_d__Bacteria;Lactobacillus_B_apodemi                  1507           1      1   1582   2047.09         -   52
+  bacteria    RS_GCF_001434095.1_d__Bacteria;Lactobacillus_G_fructivorans             1569           1      1   1582   2057.53         -   52
+  bacteria    RS_GCF_001434055.1_d__Bacteria;Lactobacillus_G_parabrevis                919        1363      1   1582     -0.61         -   51
+  bacteria    RS_GCF_001434055.1_d__Bacteria;Lactobacillus_G_parabrevis               1559           1      1   1582   2065.54         -   52
+  bacteria    RS_GCF_002762335.1_d__Bacteria;Lactobacillus_K_sp002762335              1569           1      1   1582   2124.66         -   51
+  bacteria    RS_GCF_001971585.1_d__Bacteria;Lactobacillus_K_allii                       1        1572      1   1582   2100.17         -   51
+  bacteria    RS_GCF_001436555.1_d__Bacteria;Lactobacillus_G_senioris                    1        1570      1   1582   2096.16         -   53
+  bacteria    RS_GCF_001435835.1_d__Bacteria;Lactobacillus_L_concavus                 1492        1504      1   1582     -0.50         -   15
+  bacteria    RS_GCF_001435835.1_d__Bacteria;Lactobacillus_L_concavus                 1569           1      1   1582   2145.33         -   52
+  bacteria    RS_GCF_001434985.1_d__Bacteria;Lactobacillus_K_paralimentarius             1        1562      1   1582   2091.89         -   51
+  bacteria    RS_GCF_001435315.1_d__Bacteria;Lactobacillus_G_parabuchneri             1568           1      1   1582   2050.24         -   52
+  bacteria    GB_GCA_000615325.1_d__Bacteria;Lactobacillus_F_plantarum                1562           1      1   1582   2069.89         -   51
+  bacteria    RS_GCF_000014425.1_d__Bacteria;Lactobacillus_gasseri                    1566           1      1   1582   2047.90         -   52
+  bacteria    RS_GCF_001434915.1_d__Bacteria;Lactobacillus_O_capillatus               1552           1      1   1582   2117.04         -   51
+  bacteria    RS_GCF_001039045.1_d__Bacteria;Lactobacillus_F_herbarum                    1        1564      1   1582   2079.65         -   51
+  bacteria    RS_GCF_001435995.1_d__Bacteria;Lactobacillus_G_ozensis                     1        1562      1   1582   2064.54         -   50
+  bacteria    RS_GCF_900113455.1_d__Bacteria;Lactobacillus_B_ruminis                     1        1559      1   1582   2141.56         -   52
+  bacteria    RS_GCF_001436415.1_d__Bacteria;Lactobacillus_D_graminis                    1        1568      1   1582   2121.42         -   52
+  bacteria    RS_GCF_001434695.1_d__Bacteria;Lactobacillus_A_algidus                     1        1557      1   1582   2132.24         -   51
+  bacteria    RS_GCF_000296855.1_d__Bacteria;Lactobacillus_gigeriorum                 1444           1      1   1582   1964.61         -   54
+  bacteria    RS_GCF_001311785.1_d__Bacteria;Lactobacillus_C_saniviri                    1        1567      1   1582   2100.06         -   52
+  bacteria    RS_GCF_002706425.1_d__Bacteria;Lactobacillus_E_coryniformis             1565           1      1   1582   2091.63         -   52
+  bacteria    RS_GCF_002872255.1_d__Bacteria;Lactobacillus_K_sp002872255                 1        1562      1   1582   2110.12         -   51
+  bacteria    RS_GCF_000159335.1_d__Bacteria;Lactobacillus_jensenii_A                    1        1557      1   1582   2039.18         -   52
+  bacteria    RS_GCF_000159335.1_d__Bacteria;Lactobacillus_jensenii_A                  671         654      1   1582      0.49         -   33
+  bacteria    RS_GCF_001436645.1_d__Bacteria;Lactobacillus_G_florum                      1        1569      1   1582   2017.83         -   52
+  bacteria    RS_GCF_001436645.1_d__Bacteria;Lactobacillus_G_florum                    714         690      1   1582     -0.74         -   36
+  bacteria    RS_GCF_001434785.1_d__Bacteria;Lactobacillus_G_namurensis                  1        1560      1   1582   2075.31         -   53
+  bacteria    RS_GCF_001433755.1_d__Bacteria;Lactobacillus_F_pentosus                    1        1563      1   1582   2077.73         -   51
+  bacteria    GB_GCA_003072625.1_d__Bacteria;Lactobacillus_H_reuteri_D                   1        1571      1   1582   2035.40         -   54
+  bacteria    GB_GCA_900411375.1_d__Bacteria;Lactobacillus_G_raoultii                  119        1693      1   1582   2084.32         -   53
+  bacteria    RS_GCF_000970855.1_d__Bacteria;Lactobacillus_helsingborgensis              1        1560      1   1582   2050.26         -   53
+  bacteria    GB_GCA_001311645.1_d__Bacteria;Lactobacillus_D_curvatus                    1        1565      1   1582   2105.18         -   52
+  bacteria    RS_GCF_002871555.1_d__Bacteria;Lactobacillus_H_vaginalis_A              1572           1      1   1582   2023.10         -   54
+  bacteria    RS_GCF_000612445.1_d__Bacteria;Lactobacillus_O_sucicola                 1552           1      1   1582   2122.84         -   51
+  bacteria    RS_GCF_001311135.1_d__Bacteria;Lactobacillus_G_paracollinoides             1        1559      1   1582   2058.05         -   52
+  bacteria    RS_GCF_001437155.1_d__Bacteria;Lactobacillus_O_mali_A                   1515           1      1   1582   2059.69         -   51
+  bacteria    RS_GCF_001437055.1_d__Bacteria;Lactobacillus_H_secaliphilus                1        1570      1   1582   2042.08         -   54
+  bacteria    RS_GCF_002706745.1_d__Bacteria;Lactobacillus_K_farciminis                  1        1562      1   1582   2096.63         -   51
+  bacteria    RS_GCF_000161935.1_d__Bacteria;Lactobacillus_H_coleohominis             1570           1      1   1582   2005.42         -   54
+  bacteria    RS_GCF_001312865.1_d__Bacteria;Lactobacillus_C_thailandensis            1566           1      1   1582   2063.70         -   52
+  bacteria    RS_GCF_001436215.1_d__Bacteria;Lactobacillus_B_agilis                      1        1558      1   1582   2126.38         -   51
+  bacteria    RS_GCF_001436215.1_d__Bacteria;Lactobacillus_B_agilis                    637         587      1   1582     -0.61         -   49
+  bacteria    RS_GCF_000260435.1_d__Bacteria;Lactobacillus_C_zeae                     1456           1      1   1582   1996.35         -   53
+  bacteria    RS_GCF_000425905.1_d__Bacteria;Lactobacillus_psittaci                    885         902      1   1582      0.49         -   33
+  bacteria    RS_GCF_000425905.1_d__Bacteria;Lactobacillus_psittaci                   1556           1      1   1582   2053.17         -   52
+  bacteria    RS_GCF_000615445.1_d__Bacteria;Lactobacillus_hamsteri                   1555           1      1   1582   2056.66         -   53
+  bacteria    KU196088.1_Lactobacillus_johnsonii                                        64        1473      1   1582   1874.44         -   52
+  bacteria    KU196091.1_Lactobacillus_murinus                                          41        1406      1   1582   1885.98         -   52
+  bacteria    KR364777.1_Lactobacillus_sp.                                              52        1464      1   1582   1960.00         -   52
+  bacteria    KU196090.1_Lactobacillus_murinus                                           1        1502      1   1582   2039.68         -   52
+  bacteria    KU196089.1_Lactobacillus_murinus                                           1        1501      1   1582   2037.89         -   52
+  bacteria    KR364779.1_Lactobacillus_sp.                                              48        1462      1   1582   1923.13         -   53
+  bacteria    KR364775.1_Lactobacillus_reuteri                                          47        1457      1   1582   1874.05         -   54
+  bacteria    KU196093.1_Lactobacillus_reuteri                                           1        1514      1   1582   1924.09         -   54
+  bacteria    KR364776.1_Lactobacillus_reuteri                                           1        1560      1   1582   2005.33         -   54
+  bacteria    HQ851022.1_Lactobacillus_rodentium                                        65        1433      1   1582   1826.86         -   52
+  bacteria    KR364778.1_Lactobacillus_sp.                                              60        1419      1   1582   1808.17         -   52
+  bacteria    KU196094.1_Lactobacillus_taiwanensis                                       1        1510      1   1582   1939.12         -   52
+#
+# Post-search info for CM 2: bacteria
+#
+# rnd  mod  alg  cfg   beta  bit sc cut  num hits  surv fract
+# ---  ---  ---  ---  -----  ----------  --------  ----------
+#   1  hmm  vit  loc      -       -1.00       202      0.5021
+#
+#    run time  (hr:min:sec)
+# -----------
+#    00:01:00
+#
+# Pre-search info for CM 3: eukarya
+#
+# rnd  mod  alg  cfg   beta  bit sc cut
+# ---  ---  ---  ---  -----  ----------
+#   1  hmm  vit  loc      -       -1.00
+#
+# CM: eukarya
+#                                                                                         target coord   query coord                         
+#                                                                               ----------------------  ------------                         
+# model name  target name                                                            start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ----------------------------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  eukarya     RS_GCF_002706375.1_d__Bacteria;Lactobacillus_amylovorus                 1354        1551      1   1881     49.76         -   60
+  eukarya     RS_GCF_000615845.1_d__Bacteria;Lactobacillus_B_hayakitensis             1227        1549      1   1881     61.32         -   52
+  eukarya     RS_GCF_000876205.1_d__Bacteria;Lactobacillus_H_wasatchensis             1365        1563      1   1881     51.67         -   55
+  eukarya     RS_GCF_001311375.1_d__Bacteria;Lactobacillus_H_equigenerosi             1367        1564      1   1881     51.76         -   56
+  eukarya     RS_GCF_001435975.1_d__Bacteria;Lactobacillus_G_collinoides               204           7      1   1881     51.76         -   57
+  eukarya     RS_GCF_000615285.1_d__Bacteria;Lactobacillus_kitasatonis                 204           7      1   1881     51.76         -   59
+  eukarya     RS_GCF_002911475.1_d__Bacteria;Lactobacillus_sp002911475                 204           7      1   1881     49.76         -   59
+  eukarya     RS_GCF_900103655.1_d__Bacteria;Lactobacillus_kefiranofaciens             204           7      1   1881     49.76         -   60
+  eukarya     RS_GCF_001435325.1_d__Bacteria;Lactobacillus_intestinalis                208           7      1   1881     49.41         -   58
+  eukarya     RS_GCF_000159435.1_d__Bacteria;Lactobacillus_H_vaginalis                 328           7      1   1881     52.51         -   55
+  eukarya     GB_GCA_000615245.1_d__Bacteria;Lactobacillus_C_rhamnosus                 520         544      1   1881     -0.45         -   40
+  eukarya     GB_GCA_000615245.1_d__Bacteria;Lactobacillus_C_rhamnosus                 331           7      1   1881     54.61         -   54
+  eukarya     RS_GCF_002088015.1_d__Bacteria;Lactobacillus_crispatus                  1354        1551      1   1881     49.76         -   60
+  eukarya     RS_GCF_900240275.1_d__Bacteria;Lactobacillus_H_timonensis               1365        1562      1   1881     51.76         -   58
+  eukarya     RS_GCF_001436735.1_d__Bacteria;Lactobacillus_O_cacaonum                  328           7      1   1881     58.74         -   54
+  eukarya     RS_GCF_001434225.1_d__Bacteria;Lactobacillus_O_nagelii                  1226        1547      1   1881     61.96         -   54
+  eukarya     RS_GCF_001436455.1_d__Bacteria;Lactobacillus_jensenii                    203           7      1   1881     49.85         -   56
+  eukarya     RS_GCF_001436045.1_d__Bacteria;Lactobacillus_H_frumenti                 1242        1563      1   1881     51.97         -   56
+  eukarya     RS_GCF_001435445.1_d__Bacteria;Lactobacillus_K_paralimentarius_B        1258        1457      1   1881     51.58         -   56
+  eukarya     RS_GCF_001435445.1_d__Bacteria;Lactobacillus_K_paralimentarius_B         120         107      1   1881     -0.37         -   29
+  eukarya     RS_GCF_900112665.1_d__Bacteria;Lactobacillus_bombicola                   206           7      1   1881     51.58         -   53
+  eukarya     RS_GCF_001434535.1_d__Bacteria;Lactobacillus_B_animalis                 1231        1552      1   1881     56.21         -   54
+  eukarya     RS_GCF_001436305.1_d__Bacteria;Lactobacillus_ultunensis                 1354        1551      1   1881     49.76         -   60
+  eukarya     RS_GCF_000463075.2_d__Bacteria;Lactobacillus_F_plantarum_A               784        1555      1   1881     66.10         -   52
+  eukarya     RS_GCF_000159355.1_d__Bacteria;Lactobacillus_johnsonii                   206           7      1   1881     49.58         -   55
+  eukarya     RS_GCF_000829035.1_d__Bacteria;Lactobacillus_C_paracasei                 520         544      1   1881     -0.45         -   40
+  eukarya     RS_GCF_000829035.1_d__Bacteria;Lactobacillus_C_paracasei                 331           7      1   1881     54.61         -   54
+  eukarya     RS_GCF_000178475.1_d__Bacteria;Lactobacillus_amylolyticus                204           7      1   1881     47.54         -   60
+  eukarya     RS_GCF_001437125.1_d__Bacteria;Lactobacillus_G_paucivorans              1231        1552      1   1881     59.33         -   53
+  eukarya     RS_GCF_001434735.1_d__Bacteria;Lactobacillus_G_buchneri                 1130        1451      1   1881     52.37         -   53
+  eukarya     RS_GCF_001434465.1_d__Bacteria;Lactobacillus_H_oris                     1242        1563      1   1881     58.18         -   57
+  eukarya     RS_GCF_001434365.1_d__Bacteria;Lactobacillus_H_gastricus                1364        1561      1   1881     51.76         -   56
+  eukarya     RS_GCF_001435895.1_d__Bacteria;Lactobacillus_G_parafarraginis           1486        1495      1   1881     -0.02         -   20
+  eukarya     RS_GCF_001435895.1_d__Bacteria;Lactobacillus_G_parafarraginis            328           7      1   1881     52.37         -   54
+  eukarya     RS_GCF_001436755.1_d__Bacteria;Lactobacillus_O_aquaticus                 328           7      1   1881     57.77         -   53
+  eukarya     RS_GCF_001434255.1_d__Bacteria;Lactobacillus_G_diolivorans               328           7      1   1881     52.37         -   54
+  eukarya     RS_GCF_002993975.1_d__Bacteria;Lactobacillus_G_micheneri                 328           7      1   1881     50.83         -   51
+  eukarya     RS_GCF_001434275.1_d__Bacteria;Lactobacillus_K_mindensis                1344        1357      1   1881     -0.37         -   36
+  eukarya     RS_GCF_001434275.1_d__Bacteria;Lactobacillus_K_mindensis                 206           7      1   1881     51.58         -   56
+  eukarya     RS_GCF_002916935.1_d__Bacteria;Lactobacillus_sp002916935                1231        1554      1   1881     52.27         -   51
+  eukarya     RS_GCF_001436255.1_d__Bacteria;Lactobacillus_G_rapi                     1240        1561      1   1881     52.37         -   53
+  eukarya     RS_GCF_002907375.1_d__Bacteria;Lactobacillus_G_lindneri                 1242        1564      1   1881     57.31         -   52
+  eukarya     RS_GCF_002907375.1_d__Bacteria;Lactobacillus_G_lindneri                   32           6      1   1881     -0.83         -   52
+  eukarya     RS_GCF_000469325.1_d__Bacteria;Lactobacillus_J_shenzhenensis            1124        1445      1   1881     52.05         -   55
+  eukarya     RS_GCF_900110005.1_d__Bacteria;Lactobacillus_B_ruminis_A                 204           7      1   1881     52.84         -   55
+  eukarya     RS_GCF_001663675.1_d__Bacteria;Lactobacillus_E_backii                    783        1556      1   1881     65.31         -   53
+  eukarya     RS_GCF_001663675.1_d__Bacteria;Lactobacillus_E_backii                   1146        1136      1   1881     -0.63         -   27
+  eukarya     RS_GCF_000829055.1_d__Bacteria;Lactobacillus_C_casei                    1233        1557      1   1881     54.61         -   54
+  eukarya     RS_GCF_000829055.1_d__Bacteria;Lactobacillus_C_casei                    1044        1020      1   1881     -0.45         -   40
+  eukarya     RS_GCF_001949975.1_d__Bacteria;Lactobacillus_G_kunkeei_A                 324           7      1   1881     46.89         -   52
+  eukarya     RS_GCF_001434585.1_d__Bacteria;Lactobacillus_K_crustorum                1347        1357      1   1881     -0.01         -   36
+  eukarya     RS_GCF_001434585.1_d__Bacteria;Lactobacillus_K_crustorum                 206           7      1   1881     51.58         -   56
+  eukarya     RS_GCF_001434845.1_d__Bacteria;Lactobacillus_O_hordei                   1126        1449      1   1881     58.56         -   53
+  eukarya     RS_GCF_000160875.1_d__Bacteria;Lactobacillus_iners                       204           7      1   1881     50.66         -   56
+  eukarya     RS_GCF_001436375.1_d__Bacteria;Lactobacillus_N_composti                 1227        1549      1   1881     60.06         -   54
+  eukarya     RS_GCF_001436115.1_d__Bacteria;Lactobacillus_C_brantae                   329           7      1   1881     60.57         -   54
+  eukarya     RS_GCF_001435095.1_d__Bacteria;Lactobacillus_G_spicheri                  328           7      1   1881     55.73         -   53
+  eukarya     RS_GCF_000583655.1_d__Bacteria;Lactobacillus_G_farraginis                328           7      1   1881     52.86         -   55
+  eukarya     RS_GCF_000615805.1_d__Bacteria;Lactobacillus_D_fuchuensis               1238        1559      1   1881     52.92         -   53
+  eukarya     RS_GCF_002970915.1_d__Bacteria;Lactobacillus_F_sp002970915               792        1562      1   1881     69.57         -   52
+  eukarya     RS_GCF_001591685.1_d__Bacteria;Lactobacillus_B_murinus                  1231        1552      1   1881     59.28         -   54
+  eukarya     RS_GCF_001435375.1_d__Bacteria;Lactobacillus_B_aviarius_D               1230        1551      1   1881     58.01         -   54
+  eukarya     RS_GCF_001435375.1_d__Bacteria;Lactobacillus_B_aviarius_D                228         209      1   1881     -0.99         -   40
+  eukarya     RS_GCF_001434895.1_d__Bacteria;Lactobacillus_G_odoratitofui              204           7      1   1881     51.76         -   57
+  eukarya     RS_GCF_001436225.1_d__Bacteria;Lactobacillus_C_sharpeae                  418         428      1   1881     -0.63         -   27
+  eukarya     RS_GCF_001436225.1_d__Bacteria;Lactobacillus_C_sharpeae                  332           7      1   1881     54.11         -   57
+  eukarya     RS_GCF_001435505.1_d__Bacteria;Lactobacillus_K_futsaii                  1355        1554      1   1881     51.58         -   56
+  eukarya     RS_GCF_001437435.1_d__Bacteria;Lactobacillus_I_siliginis                1365        1563      1   1881     49.44         -   55
+  eukarya     RS_GCF_001311175.1_d__Bacteria;Lactobacillus_C_pantheris                 416         426      1   1881     -0.63         -   27
+  eukarya     RS_GCF_001311175.1_d__Bacteria;Lactobacillus_C_pantheris                 330           7      1   1881     54.32         -   55
+  eukarya     RS_GCF_900156885.1_d__Bacteria;Lactobacillus_H_sp900156885              1364        1561      1   1881     51.76         -   58
+  eukarya     RS_GCF_001436775.1_d__Bacteria;Lactobacillus_acetotolerans               210           7      1   1881     49.23         -   54
+  eukarya     RS_GCF_000829395.1_d__Bacteria;Lactobacillus_H_hokkaidonensis           1365        1566      1   1881     46.31         -   53
+  eukarya     RS_GCF_001436505.1_d__Bacteria;Lactobacillus_E_rennini                   783        1555      1   1881     62.97         -   55
+  eukarya     RS_GCF_001436505.1_d__Bacteria;Lactobacillus_E_rennini                  1146        1136      1   1881     -0.63         -   27
+  eukarya     RS_GCF_000831645.3_d__Bacteria;Lactobacillus_K_heilongjiangensis        1344        1357      1   1881     -0.37         -   36
+  eukarya     RS_GCF_000831645.3_d__Bacteria;Lactobacillus_K_heilongjiangensis         206           7      1   1881     51.58         -   56
+  eukarya     RS_GCF_001434935.1_d__Bacteria;Lactobacillus_O_uvarum                    328           7      1   1881     57.77         -   53
+  eukarya     RS_GCF_001281265.1_d__Bacteria;Lactobacillus_G_kunkeei                  1243        1560      1   1881     46.89         -   52
+  eukarya     RS_GCF_001311075.1_d__Bacteria;Lactobacillus_G_similis                   204           7      1   1881     51.76         -   56
+  eukarya     RS_GCF_000160835.1_d__Bacteria;Lactobacillus_H_antri                    1242        1564      1   1881     58.09         -   56
+  eukarya     RS_GCF_000785105.2_d__Bacteria;Lactobacillus_G_curieae                   328           7      1   1881     52.37         -   53
+  eukarya     RS_GCF_000615905.1_d__Bacteria;Lactobacillus_K_nodensis                  205           7      1   1881     51.67         -   54
+  eukarya     RS_GCF_001308205.1_d__Bacteria;Lactobacillus_G_kunkeei_B                1243        1560      1   1881     48.34         -   51
+  eukarya     RS_GCF_001485255.1_d__Bacteria;Lactobacillus_K_farciminis_A             1355        1554      1   1881     51.58         -   56
+  eukarya     RS_GCF_000296835.1_d__Bacteria;Lactobacillus_hominis                     206           7      1   1881     49.58         -   54
+  eukarya     RS_GCF_001436275.1_d__Bacteria;Lactobacillus_O_oeni                     1226        1548      1   1881     58.80         -   54
+  eukarya     RS_GCF_000498955.2_d__Bacteria;Lactobacillus_F_fabifermentans           1357        1554      1   1881     51.76         -   57
+  eukarya     RS_GCF_001308195.1_d__Bacteria;Lactobacillus_G_kunkeei_C                1129        1446      1   1881     46.89         -   52
+  eukarya     RS_GCF_001434335.1_d__Bacteria;Lactobacillus_kalixensis                 1353        1550      1   1881     49.76         -   59
+  eukarya     RS_GCF_001436315.1_d__Bacteria;Lactobacillus_B_aviarius                  328           7      1   1881     55.57         -   53
+  eukarya     RS_GCF_000297025.1_d__Bacteria;Lactobacillus_pasteurii                   204           7      1   1881     49.76         -   60
+  eukarya     RS_GCF_000967195.1_d__Bacteria;Lactobacillus_kullabergensis              206           7      1   1881     49.58         -   56
+  eukarya     RS_GCF_000970775.1_d__Bacteria;Lactobacillus_melliventris               1647        1846      1   1881     49.58         -   56
+  eukarya     RS_GCF_001434665.1_d__Bacteria;Lactobacillus_K_tucceti                   205           7      1   1881     46.92         -   53
+  eukarya     RS_GCF_000967245.1_d__Bacteria;Lactobacillus_K_mellis                    206           7      1   1881     51.58         -   56
+  eukarya     RS_GCF_001281175.1_d__Bacteria;Lactobacillus_G_apinorum                 1636        1827      1   1881     46.60         -   52
+  eukarya     RS_GCF_001436605.1_d__Bacteria;Lactobacillus_floricola                   205           7      1   1881     51.48         -   54
+  eukarya     RS_GCF_002940945.1_d__Bacteria;Lactobacillus_H_pontis_A                 1241        1563      1   1881     62.18         -   56
+  eukarya     RS_GCF_001436695.1_d__Bacteria;Lactobacillus_taiwanensis                 206           7      1   1881     49.58         -   55
+  eukarya     RS_GCF_001436095.1_d__Bacteria;Lactobacillus_L_dextrinicus              1238        1561      1   1881     57.42         -   54
+  eukarya     RS_GCF_001434115.1_d__Bacteria;Lactobacillus_G_zymae                     328           7      1   1881     58.23         -   54
+  eukarya     RS_GCF_003124125.1_d__Bacteria;Lactobacillus_G_bambusae                  329           7      1   1881     51.99         -   54
+  eukarya     RS_GCF_001435775.1_d__Bacteria;Lactobacillus_H_ingluviei                 204           7      1   1881     51.76         -   58
+  eukarya     RS_GCF_001436295.1_d__Bacteria;Lactobacillus_H_vaccinostercus            206           7      1   1881     51.58         -   57
+  eukarya     RS_GCF_001591845.1_d__Bacteria;Lactobacillus_acidophilus                 204           7      1   1881     49.76         -   60
+  eukarya     RS_GCF_001434475.1_d__Bacteria;Lactobacillus_H_suebicus                 1366        1564      1   1881     51.67         -   55
+  eukarya     RS_GCF_001435575.1_d__Bacteria;Lactobacillus_G_sunkii                   1240        1561      1   1881     52.37         -   53
+  eukarya     RS_GCF_002849895.1_d__Bacteria;Lactobacillus_K_alimentarius             1355        1554      1   1881     51.58         -   56
+  eukarya     RS_GCF_000615765.1_d__Bacteria;Lactobacillus_B_equi                      656           7      1   1881     58.30         -   54
+  eukarya     RS_GCF_001311195.1_d__Bacteria;Lactobacillus_C_camelliae                 417         427      1   1881     -0.63         -   27
+  eukarya     RS_GCF_001311195.1_d__Bacteria;Lactobacillus_C_camelliae                 331           7      1   1881     57.51         -   56
+  eukarya     RS_GCF_002970935.1_d__Bacteria;Lactobacillus_F_sp002970935               792        1562      1   1881     69.57         -   52
+  eukarya     RS_GCF_001435525.1_d__Bacteria;Lactobacillus_G_koreensis                 326           5      1   1881     55.83         -   53
+  eukarya     RS_GCF_000159315.1_d__Bacteria;Lactobacillus_G_hilgardii                1239        1560      1   1881     52.37         -   54
+  eukarya     RS_GCF_001435345.1_d__Bacteria;Lactobacillus_H_pontis                   1131        1452      1   1881     62.27         -   56
+  eukarya     RS_GCF_002994005.1_d__Bacteria;Lactobacillus_G_quenuiae                  328           7      1   1881     53.01         -   51
+  eukarya     RS_GCF_002158885.1_d__Bacteria;Lactobacillus_gasseri_A                  1360        1559      1   1881     49.58         -   55
+  eukarya     GB_GCA_001311765.1_d__Bacteria;Lactobacillus_equicursoris                206           7      1   1881     49.58         -   58
+  eukarya     RS_GCF_000614735.1_d__Bacteria;Lactobacillus_gallinarum                  204           7      1   1881     49.76         -   59
+  eukarya     RS_GCF_001438805.1_d__Bacteria;Lactobacillus_K_kimchiensis              1344        1357      1   1881     -0.45         -   21
+  eukarya     RS_GCF_001438805.1_d__Bacteria;Lactobacillus_K_kimchiensis               206           7      1   1881     51.58         -   56
+  eukarya     RS_GCF_001434575.1_d__Bacteria;Lactobacillus_E_bifermentans              638         475      1   1881     32.16         -   51
+  eukarya     RS_GCF_001050475.1_d__Bacteria;Lactobacillus_K_ginsenosidimutans         205           7      1   1881     51.67         -   54
+  eukarya     RS_GCF_001435815.1_d__Bacteria;Lactobacillus_K_nantensis                1355        1554      1   1881     51.58         -   56
+  eukarya     RS_GCF_001435815.1_d__Bacteria;Lactobacillus_K_nantensis                 217         204      1   1881     -0.37         -   36
+  eukarya     RS_GCF_001434705.1_d__Bacteria;Lactobacillus_C_nasuensis                1356        1555      1   1881     51.58         -   56
+  eukarya     RS_GCF_001434705.1_d__Bacteria;Lactobacillus_C_nasuensis                1146        1136      1   1881     -0.63         -   27
+  eukarya     RS_GCF_001434315.1_d__Bacteria;Lactobacillus_H_oligofermentans           204           7      1   1881     51.76         -   57
+  eukarya     RS_GCF_001293735.1_d__Bacteria;Lactobacillus_H_gorillae                  204           7      1   1881     51.76         -   56
+  eukarya     RS_GCF_001434145.1_d__Bacteria;Lactobacillus_G_otakiensis               1078        1399      1   1881     52.37         -   53
+  eukarya     RS_GCF_001438845.1_d__Bacteria;Lactobacillus_F_xiangfangensis            777           7      1   1881     66.19         -   53
+  eukarya     RS_GCF_000260415.1_d__Bacteria;Lactobacillus_O_mali                      329           7      1   1881     58.65         -   54
+  eukarya     RS_GCF_001592085.1_d__Bacteria;Lactobacillus_G_senmaizukei               328           7      1   1881     57.51         -   53
+  eukarya     RS_GCF_001433855.1_d__Bacteria;Lactobacillus_G_brevis                    328           7      1   1881     55.83         -   53
+  eukarya     RS_GCF_002953655.1_d__Bacteria;Lactobacillus_D_sakei_A                  1239        1562      1   1881     59.94         -   54
+  eukarya     RS_GCF_002179915.1_d__Bacteria;Lactobacillus_K_paralimentarius_A        1355        1554      1   1881     51.58         -   56
+  eukarya     RS_GCF_002179915.1_d__Bacteria;Lactobacillus_K_paralimentarius_A         217         204      1   1881     -0.37         -   29
+  eukarya     RS_GCF_000016825.1_d__Bacteria;Lactobacillus_H_reuteri                  1365        1563      1   1881     51.67         -   58
+  eukarya     RS_GCF_001936335.1_d__Bacteria;Lactobacillus_amylophilus                 206           7      1   1881     46.83         -   53
+  eukarya     RS_GCF_001435235.1_d__Bacteria;Lactobacillus_O_ghanensis                1226        1547      1   1881     62.06         -   53
+  eukarya     RS_GCF_000760615.1_d__Bacteria;Lactobacillus_sp000760615                1353        1552      1   1881     49.58         -   56
+  eukarya     RS_GCF_000160855.1_d__Bacteria;Lactobacillus_helveticus                  204           7      1   1881     44.67         -   59
+  eukarya     RS_GCF_002370355.1_d__Bacteria;Lactobacillus_D_sakei                     330           7      1   1881     59.94         -   54
+  eukarya     RS_GCF_001437205.1_d__Bacteria;Lactobacillus_M_selangorensis             578         253      1   1881     56.17         -   55
+  eukarya     RS_GCF_001435195.1_d__Bacteria;Lactobacillus_O_satsumensis               329           7      1   1881     62.69         -   54
+  eukarya     RS_GCF_001433995.1_d__Bacteria;Lactobacillus_G_kimchicus                 204           7      1   1881     51.76         -   57
+  eukarya     GB_GCA_001311425.1_d__Bacteria;Lactobacillus_G_kisonensis                328           7      1   1881     52.37         -   53
+  eukarya     RS_GCF_001434835.1_d__Bacteria;Lactobacillus_G_acidifarinae              328           7      1   1881     56.55         -   54
+  eukarya     RS_GCF_001434405.1_d__Bacteria;Lactobacillus_B_apodemi                   274          80      1   1881     19.62         -   55
+  eukarya     RS_GCF_001434095.1_d__Bacteria;Lactobacillus_G_fructivorans             1487        1497      1   1881     -0.11         -   18
+  eukarya     RS_GCF_001434095.1_d__Bacteria;Lactobacillus_G_fructivorans              328           7      1   1881     51.83         -   52
+  eukarya     RS_GCF_001434055.1_d__Bacteria;Lactobacillus_G_parabrevis                328           7      1   1881     55.83         -   53
+  eukarya     RS_GCF_002762335.1_d__Bacteria;Lactobacillus_K_sp002762335               205           7      1   1881     51.67         -   55
+  eukarya     RS_GCF_001971585.1_d__Bacteria;Lactobacillus_K_allii                    1363        1564      1   1881     51.40         -   53
+  eukarya     RS_GCF_001436555.1_d__Bacteria;Lactobacillus_G_senioris                 1240        1562      1   1881     50.11         -   54
+  eukarya     RS_GCF_001435835.1_d__Bacteria;Lactobacillus_L_concavus                  330           7      1   1881     57.42         -   53
+  eukarya     RS_GCF_001434985.1_d__Bacteria;Lactobacillus_K_paralimentarius          1355        1554      1   1881     51.58         -   56
+  eukarya     RS_GCF_001434985.1_d__Bacteria;Lactobacillus_K_paralimentarius           217         204      1   1881     -0.37         -   29
+  eukarya     RS_GCF_001435315.1_d__Bacteria;Lactobacillus_G_parabuchneri             1487        1496      1   1881      0.44         -   20
+  eukarya     RS_GCF_001435315.1_d__Bacteria;Lactobacillus_G_parabuchneri              328           7      1   1881     52.37         -   53
+  eukarya     GB_GCA_000615325.1_d__Bacteria;Lactobacillus_F_plantarum                 778           7      1   1881     65.38         -   52
+  eukarya     RS_GCF_000014425.1_d__Bacteria;Lactobacillus_gasseri                     206           7      1   1881     49.58         -   55
+  eukarya     RS_GCF_001434915.1_d__Bacteria;Lactobacillus_O_capillatus                328           7      1   1881     57.92         -   53
+  eukarya     RS_GCF_001039045.1_d__Bacteria;Lactobacillus_F_herbarum                  784        1556      1   1881     68.67         -   51
+  eukarya     RS_GCF_001435995.1_d__Bacteria;Lactobacillus_G_ozensis                  1232        1554      1   1881     53.78         -   53
+  eukarya     RS_GCF_900113455.1_d__Bacteria;Lactobacillus_B_ruminis                   903        1551      1   1881     62.63         -   54
+  eukarya     RS_GCF_900113455.1_d__Bacteria;Lactobacillus_B_ruminis                   211         202      1   1881     -0.31         -   40
+  eukarya     RS_GCF_001436415.1_d__Bacteria;Lactobacillus_D_graminis                 1237        1560      1   1881     59.94         -   53
+  eukarya     RS_GCF_001434695.1_d__Bacteria;Lactobacillus_A_algidus                  1227        1549      1   1881     55.34         -   53
+  eukarya     RS_GCF_000296855.1_d__Bacteria;Lactobacillus_gigeriorum                  194           5      1   1881     40.62         -   61
+  eukarya     RS_GCF_001311785.1_d__Bacteria;Lactobacillus_C_saniviri                 1237        1559      1   1881     53.38         -   54
+  eukarya     RS_GCF_001311785.1_d__Bacteria;Lactobacillus_C_saniviri                 1151        1141      1   1881     -0.63         -   27
+  eukarya     RS_GCF_002706425.1_d__Bacteria;Lactobacillus_E_coryniformis              417         427      1   1881     -0.63         -   27
+  eukarya     RS_GCF_002706425.1_d__Bacteria;Lactobacillus_E_coryniformis              780           7      1   1881     66.81         -   53
+  eukarya     RS_GCF_002872255.1_d__Bacteria;Lactobacillus_K_sp002872255              1355        1554      1   1881     51.58         -   56
+  eukarya     RS_GCF_000159335.1_d__Bacteria;Lactobacillus_jensenii_A                 1353        1549      1   1881     49.85         -   56
+  eukarya     RS_GCF_001436645.1_d__Bacteria;Lactobacillus_G_florum                   1240        1561      1   1881     51.83         -   53
+  eukarya     RS_GCF_001436645.1_d__Bacteria;Lactobacillus_G_florum                     32           6      1   1881     -0.83         -   52
+  eukarya     RS_GCF_001434785.1_d__Bacteria;Lactobacillus_G_namurensis               1231        1552      1   1881     55.73         -   53
+  eukarya     RS_GCF_001433755.1_d__Bacteria;Lactobacillus_F_pentosus                  784        1555      1   1881     65.38         -   52
+  eukarya     GB_GCA_003072625.1_d__Bacteria;Lactobacillus_H_reuteri_D                1365        1563      1   1881     51.67         -   57
+  eukarya     GB_GCA_003072625.1_d__Bacteria;Lactobacillus_H_reuteri_D                 106          97      1   1881      0.23         -   30
+  eukarya     GB_GCA_900411375.1_d__Bacteria;Lactobacillus_G_raoultii                 1364        1685      1   1881     53.56         -   54
+  eukarya     RS_GCF_000970855.1_d__Bacteria;Lactobacillus_helsingborgensis           1353        1552      1   1881     49.58         -   56
+  eukarya     GB_GCA_001311645.1_d__Bacteria;Lactobacillus_D_curvatus                 1236        1557      1   1881     58.43         -   54
+  eukarya     RS_GCF_002871555.1_d__Bacteria;Lactobacillus_H_vaginalis_A               328           7      1   1881     52.51         -   55
+  eukarya     RS_GCF_000612445.1_d__Bacteria;Lactobacillus_O_sucicola                  328           7      1   1881     57.77         -   53
+  eukarya     RS_GCF_001311135.1_d__Bacteria;Lactobacillus_G_paracollinoides          1354        1551      1   1881     51.76         -   57
+  eukarya     RS_GCF_001437155.1_d__Bacteria;Lactobacillus_O_mali_A                    290           1      1   1881     20.53         -   53
+  eukarya     RS_GCF_001437055.1_d__Bacteria;Lactobacillus_H_secaliphilus             1241        1562      1   1881     56.74         -   56
+  eukarya     RS_GCF_002706745.1_d__Bacteria;Lactobacillus_K_farciminis               1355        1554      1   1881     51.58         -   56
+  eukarya     RS_GCF_000161935.1_d__Bacteria;Lactobacillus_H_coleohominis              328           7      1   1881     52.24         -   57
+  eukarya     RS_GCF_001312865.1_d__Bacteria;Lactobacillus_C_thailandensis             416         426      1   1881     -0.63         -   27
+  eukarya     RS_GCF_001312865.1_d__Bacteria;Lactobacillus_C_thailandensis             330           7      1   1881     58.12         -   55
+  eukarya     RS_GCF_001436215.1_d__Bacteria;Lactobacillus_B_agilis                   1352        1550      1   1881     52.75         -   54
+  eukarya     RS_GCF_000260435.1_d__Bacteria;Lactobacillus_C_zeae                      520         544      1   1881     -0.45         -   40
+  eukarya     RS_GCF_000260435.1_d__Bacteria;Lactobacillus_C_zeae                      331           7      1   1881     54.61         -   54
+  eukarya     RS_GCF_000425905.1_d__Bacteria;Lactobacillus_psittaci                    203           7      1   1881     49.85         -   56
+  eukarya     RS_GCF_000615445.1_d__Bacteria;Lactobacillus_hamsteri                    204           7      1   1881     49.76         -   59
+  eukarya     KU196088.1_Lactobacillus_johnsonii                                       859         900      1   1881     12.64         -   52
+  eukarya     KU196091.1_Lactobacillus_murinus                                        1168        1362      1   1881     21.06         -   54
+  eukarya     KR364777.1_Lactobacillus_sp.                                            1178        1372      1   1881     21.06         -   54
+  eukarya     KU196090.1_Lactobacillus_murinus                                        1217        1411      1   1881     21.06         -   54
+  eukarya     KU196089.1_Lactobacillus_murinus                                        1216        1410      1   1881     21.06         -   54
+  eukarya     KR364779.1_Lactobacillus_sp.                                            1173        1367      1   1881     16.65         -   55
+  eukarya     KR364779.1_Lactobacillus_sp.                                             984         960      1   1881     -0.45         -   40
+  eukarya     KR364775.1_Lactobacillus_reuteri                                        1294        1364      1   1881     13.54         -   61
+  eukarya     KU196093.1_Lactobacillus_reuteri                                        1352        1422      1   1881     13.54         -   61
+  eukarya     KR364776.1_Lactobacillus_reuteri                                        1363        1560      1   1881     47.04         -   58
+  eukarya     HQ851022.1_Lactobacillus_rodentium                                       860         901      1   1881     12.64         -   52
+  eukarya     KR364778.1_Lactobacillus_sp.                                             855         896      1   1881     12.64         -   52
+  eukarya     KU196094.1_Lactobacillus_taiwanensis                                     896         937      1   1881     12.64         -   52
+#
+# Post-search info for CM 3: eukarya
+#
+# rnd  mod  alg  cfg   beta  bit sc cut  num hits  surv fract
+# ---  ---  ---  ---  -----  ----------  --------  ----------
+#   1  hmm  vit  loc      -       -1.00       213      0.0924
+#
+#    run time  (hr:min:sec)
+# -----------
+#    00:01:15

@@ -1,0 +1,115 @@
+# _ssu-mask :: mask SSU rRNA alignments
+# SSU-ALIGN 0.1.1 (Feb 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: _ssu-mask --pf 0.001 --pt 0 --afa --dna Bacteroidales_ref_seqs_filt_aligned
+# date:    Mon Jun 29 17:00:23 2020
+
+Printing global hask key as read from ssu.pm:
+
+Global hash key: DF_ALIMASK_PFRACT    value: 0.95
+Global hash key: DF_ALIMASK_PTHRESH   value: 0.95
+Global hash key: DF_CMALIGN_OPTS      value:  --no-null3 --sub 
+Global hash key: DF_CMBUILD_GAPTHRESH value: 0.8
+Global hash key: DF_CMSEARCH_ALG_FLAG value:  --viterbi
+Global hash key: DF_CMSEARCH_OPTS     value:  --hmm-cW 1.5 --no-null3 --noalign 
+Global hash key: DF_CMSEARCH_T        value: -1
+Global hash key: DF_CM_FILE           value: /home/adamsorbie/miniconda3/envs/bioinfo/share/ssu-align-0.1.1/ssu-align-0p1.cm
+Global hash key: DF_MASK_FILE         value: /home/adamsorbie/miniconda3/envs/bioinfo/share/ssu-align-0.1.1/ssu-align-0p1.mask
+Global hash key: DF_MERGE_INIT_WAIT_SECS value: 3
+Global hash key: DF_MINBIT            value: 50
+Global hash key: DF_MINLEN            value: 1
+Global hash key: DF_MXSIZE            value: 4096
+Global hash key: DF_NO_NAME           value: <NONE>
+Global hash key: DF_TEMPLATE_FILE     value: /home/adamsorbie/miniconda3/envs/bioinfo/share/ssu-align-0.1.1/ssu-align-0p1.ps
+Global hash key: VERSION              value: 0.1
+Global hash key: VERSION_PSTR         value: 0p1
+Global hash key: cmalign              value: ssu-cmalign
+Global hash key: cmbuild              value: ssu-cmbuild
+Global hash key: cmsearch             value: ssu-cmsearch
+Global hash key: esl-alimanip         value: ssu-esl-alimanip
+Global hash key: esl-alimask          value: ssu-esl-alimask
+Global hash key: esl-alimerge         value: ssu-esl-alimerge
+Global hash key: esl-alistat          value: ssu-esl-alistat
+Global hash key: esl-reformat         value: ssu-esl-reformat
+Global hash key: esl-seqstat          value: ssu-esl-seqstat
+Global hash key: esl-sfetch           value: ssu-esl-sfetch
+Global hash key: esl-ssdraw           value: ssu-esl-ssdraw
+Global hash key: esl-weight           value: ssu-esl-weight
+Global hash key: ps2pdf               value: ps2pdf
+Global hash key: ssu-align            value: ssu-align
+Global hash key: ssu-merge            value: ssu-merge
+
+Executing:      ssu-esl-alimask -h > /dev/null  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp0erraa8968
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp0erraa8968) with perl's unlink function ... done.
+
+Executing:      ssu-esl-alimanip -h > /dev/null  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp1erraa8968
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp1erraa8968) with perl's unlink function ... done.
+
+Executing:      ssu-esl-ssdraw -h > /dev/null  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp2erraa8968
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp2erraa8968) with perl's unlink function ... done.
+
+Executing:      ssu-esl-reformat -h > /dev/null  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp3erraa8968
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp3erraa8968) with perl's unlink function ... done.
+
+Executing:      ssu-esl-alimask --dna --small -p --pfract 0.001 --pthresh 0 --fmask-rf Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask -o Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.stk Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.stk > Bacteroidales_ref_seqs_filt_aligned.bacteria.alimask  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp4erraa8968
+Returned:       0
+Output (STDOUT) saved in file Bacteroidales_ref_seqs_filt_aligned.bacteria.alimask.
+Output (STDERR): ***NONE***
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp4erraa8968) with perl's unlink function ... done.
+
+Executing:      ssu-esl-ssdraw --mask-col --mask Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask --small /home/adamsorbie/miniconda3/envs/bioinfo/share/ssu-align-0.1.1/bacteria-0p1.stk /home/adamsorbie/miniconda3/envs/bioinfo/share/ssu-align-0.1.1/ssu-align-0p1.ps Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.ps > Bacteroidales_ref_seqs_filt_aligned/ssutmp5outaa8968  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp5erraa8968
+Returned:       0
+Output (STDOUT): 
+# 1 page postscript saved to file Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.ps.
+
+Output (STDERR): ***NONE***
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp5outaa8968) with perl's unlink function ... done.
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp5erraa8968) with perl's unlink function ... done.
+
+Executing:      ps2pdf Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.ps Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.pdf > Bacteroidales_ref_seqs_filt_aligned/ssutmp6outaa8968  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp6erraa8968
+Returned:       127
+Output (STDOUT): ***NONE***
+Output (STDERR): 
+sh: 1: ps2pdf: not found
+
+
+ERROR, the command ("ps2pdf Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.ps Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.pdf > Bacteroidales_ref_seqs_filt_aligned/ssutmp6outaa8968  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp6erraa8968") unexpectedly returned non-zero exit status: 127.
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp6outaa8968) with perl's unlink function ... done.
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp6erraa8968) with perl's unlink function ... done.
+
+Executing:      ssu-esl-reformat -o Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.afa --small --informat pfam afa Bacteroidales_ref_seqs_filt_aligned/Bacteroidales_ref_seqs_filt_aligned.bacteria.mask.stk > Bacteroidales_ref_seqs_filt_aligned/ssutmp7outaa8968  2> Bacteroidales_ref_seqs_filt_aligned/ssutmp7erraa8968
+Returned:       0
+Output (STDOUT): ***NONE***
+Output (STDERR): ***NONE***
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp7outaa8968) with perl's unlink function ... done.
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned/ssutmp7erraa8968) with perl's unlink function ... done.
+
+About to remove file (Bacteroidales_ref_seqs_filt_aligned.bacteria.alimask) with perl's unlink function ... done.
+
+Mon Jun 29 17:00:23 CEST 2020
+Linux DESKTOP-PKGMS24 4.19.84-microsoft-standard #1 SMP Wed Nov 13 11:44:37 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+# SSU-ALIGN-SUCCESS

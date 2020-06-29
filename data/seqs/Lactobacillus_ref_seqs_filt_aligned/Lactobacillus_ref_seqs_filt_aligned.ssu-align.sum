@@ -1,0 +1,59 @@
+# _ssu-align :: align SSU rRNA sequences
+# SSU-ALIGN 0.1.1 (Feb 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: _ssu-align --dna Lactobacillus_ref_seqs_filt.fna Lactobacillus_ref_seqs_filt_aligned
+# date:    Mon Jun 29 16:53:33 2020
+#
+# Validating input sequence file ... done.
+#
+# Stage 1: Determining SSU start/end positions and best-matching models...
+#
+# output file name                                      description                                
+# ----------------------------------------------------  -------------------------------------------
+  Lactobacillus_ref_seqs_filt_aligned.tab               locations/scores of hits defined by HMM(s)
+  Lactobacillus_ref_seqs_filt_aligned.bacteria.hitlist  list of sequences to align with bacteria CM
+  Lactobacillus_ref_seqs_filt_aligned.bacteria.fa           183 sequences to align with bacteria CM
+#
+# Stage 2: Aligning each sequence to its best-matching model...
+#
+# output file name                                      description
+# ----------------------------------------------------  ---------------------------------------
+  Lactobacillus_ref_seqs_filt_aligned.bacteria.stk      bacteria alignment
+  Lactobacillus_ref_seqs_filt_aligned.bacteria.cmalign  bacteria cmalign output
+  Lactobacillus_ref_seqs_filt_aligned.bacteria.ifile    bacteria insert info
+  Lactobacillus_ref_seqs_filt_aligned.scores            list of CM/HMM scores for each sequence
+#
+# Summary statistics:
+#
+# model or       number  fraction        average   average               
+# category      of seqs  of total         length  coverage    nucleotides
+# ------------  -------  --------  -------------  --------  -------------
+  *input*           183    1.0000        1553.29    1.0000         284252
+#
+  archaea             0    0.0000              -         -              0
+  bacteria          183    1.0000        1547.84    0.9965         283255
+  eukarya             0    0.0000              -         -              0
+#
+  *all-models*      183    1.0000        1547.84    0.9965         283255
+  *no-models*         0    0.0000              -         -              0
+#
+# Speed statistics:
+#
+# stage      num seqs  seq/sec  seq/sec/model    nucleotides    nt/sec
+# ---------  --------  -------  -------------  -------------  --------
+  search          183    0.934          0.311         284252    1450.4
+  alignment       183    0.857          0.857         283255    1327.2
+#
+#
+# List of executed commands saved in:     Lactobacillus_ref_seqs_filt_aligned.ssu-align.log.
+# Output printed to the screen saved in:  Lactobacillus_ref_seqs_filt_aligned.ssu-align.sum.
+#
+# All output files created in directory ./Lactobacillus_ref_seqs_filt_aligned/
+#
+# CPU time (search):     00:03:15.99  (hh:mm:ss)
+# CPU time (alignment):  00:03:33.43  (hh:mm:ss)
+# CPU time (total):      00:06:49.48  (hh:mm:ss)
+#
+# SSU-ALIGN-SUCCESS
